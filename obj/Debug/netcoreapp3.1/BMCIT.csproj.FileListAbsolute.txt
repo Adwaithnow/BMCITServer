@@ -1,0 +1,107 @@
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.exe
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.deps.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.runtimeconfig.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.runtimeconfig.dev.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.dll
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.pdb
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.AssemblyReference.cache
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfoInputs.cache
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfo.cs
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CoreCompileInputs.cache
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.Manifest.cache
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.xml
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\scopedcss\bundle\BMCIT.styles.css
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.RazorTargetAssemblyInfo.cache
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.dll
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.pdb
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.genruntimeconfig.cache
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\219037\Documents\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CopyComplete
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Databases\Charts.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Databases\Stations.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Databases\Trains.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Databases\Users.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Databases\BookingDetails.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Databases\TrainRoutes.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\Tets.json
+C:\Users\219037\Documents\BMCIT\bin\Debug\netcoreapp3.1\KLStations.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Databases\BookingDetails.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Databases\Charts.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Databases\Stations.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Databases\TrainRoutes.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Databases\Users.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\KLStations.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Tets.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Databases\Trains.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.exe
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.deps.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.runtimeconfig.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.runtimeconfig.dev.json
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.dll
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.pdb
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.AssemblyReference.cache
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfoInputs.cache
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfo.cs
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CoreCompileInputs.cache
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.Manifest.cache
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.xml
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\scopedcss\bundle\BMCIT.styles.css
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.RazorTargetAssemblyInfo.cache
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CopyComplete
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.dll
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.pdb
+C:\Users\219037\Documents\BMCIT SnC\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.genruntimeconfig.cache
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\appsettings.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\BookingDetails.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\Charts.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\Stations.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\TrainRoutes.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\Trains.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\Users.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\KLStations.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Tets.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.exe
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.deps.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.runtimeconfig.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.runtimeconfig.dev.json
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\BMCIT.pdb
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csprojAssemblyReference.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfoInputs.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfo.cs
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CoreCompileInputs.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.MvcApplicationPartsAssemblyInfo.cs
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.MvcApplicationPartsAssemblyInfo.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.RazorTargetAssemblyInfo.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CopyComplete
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.Manifest.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.xml
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.dll
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.pdb
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.genruntimeconfig.cache

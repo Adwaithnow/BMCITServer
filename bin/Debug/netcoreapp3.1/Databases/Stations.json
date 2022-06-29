@@ -1,0 +1,1550 @@
+[
+  {
+    "SId": "cf239c6d-f5bb-4040-83e4-e4d72246bf33",
+    "StationName": "Kanjikode",
+    "StationShortCode": "KJKD",
+    "StationLocation": [
+      76.75531600000001,
+      10.800919
+    ]
+  },
+  {
+    "SId": "0421a9f1-23f1-44b8-b0fc-7222c848b89d",
+    "StationName": "Parli",
+    "StationShortCode": "PLL",
+    "StationLocation": [
+      76.559421,
+      10.800415
+    ]
+  },
+  {
+    "SId": "da715fe7-98fb-4f29-8fef-6a1778443f3a",
+    "StationName": "Mankarai",
+    "StationShortCode": "MNY",
+    "StationLocation": [
+      76.500232,
+      10.771526
+    ]
+  },
+  {
+    "SId": "3a6e64f6-6f9c-4fc3-98cd-27dd3192c5c0",
+    "StationName": "Lakkiti",
+    "StationShortCode": "LDY",
+    "StationLocation": [
+      76.434467,
+      10.753217
+    ]
+  },
+  {
+    "SId": "ad7ad95f-d46d-4dca-974a-23ee417f4ef6",
+    "StationName": "Palappuram",
+    "StationShortCode": "PLPM",
+    "StationLocation": [
+      76.398385813,
+      10.7525187905
+    ]
+  },
+  {
+    "SId": "0f27e296-9199-4ddd-83aa-16cee6df3788",
+    "StationName": "Ottappalam",
+    "StationShortCode": "OTP",
+    "StationLocation": [
+      76.377993,
+      10.770046
+    ]
+  },
+  {
+    "SId": "c1bca493-2296-4f98-a9b5-cd9392dbe251",
+    "StationName": "Mannanur",
+    "StationShortCode": "MNUR",
+    "StationLocation": [
+      76.323555,
+      10.749322
+    ]
+  },
+  {
+    "SId": "f59342db-c4f4-453f-a39e-f4d737a29df4",
+    "StationName": "Mullurkara",
+    "StationShortCode": "MUC",
+    "StationLocation": [
+      76.271415,
+      10.705843
+    ]
+  },
+  {
+    "SId": "44ba1278-1470-4d3f-a0e6-57a2bda44165",
+    "StationName": "Wadakancheri",
+    "StationShortCode": "WKI",
+    "StationLocation": [
+      76.237041,
+      10.648956
+    ]
+  },
+  {
+    "SId": "ebfb5551-3e3a-4e35-9da4-2adac02af6be",
+    "StationName": "Mulangunnathukavu",
+    "StationShortCode": "MGK",
+    "StationLocation": [
+      76.207809,
+      10.596938999999999
+    ]
+  },
+  {
+    "SId": "7a1da5b2-fb41-4933-9eb3-b95154a89f6f",
+    "StationName": "Chirakkal",
+    "StationShortCode": "CQL",
+    "StationLocation": [
+      75.353696,
+      11.911049
+    ]
+  },
+  {
+    "SId": "c66d09c5-a8cc-49fe-93f0-cc19bf2e47fb",
+    "StationName": "Punkunnam",
+    "StationShortCode": "PNQ",
+    "StationLocation": [
+      76.20943,
+      10.535053999999999
+    ]
+  },
+  {
+    "SId": "dc94cfd2-441c-40ba-bf98-e85c3ec2f4a7",
+    "StationName": "Thrisur",
+    "StationShortCode": "TCR",
+    "StationLocation": [
+      76.207919,
+      10.514790000000001
+    ]
+  },
+  {
+    "SId": "d95f9136-f079-43db-8a9e-22c230a7b460",
+    "StationName": "Palakkad",
+    "StationShortCode": "PGT",
+    "StationLocation": [
+      76.641926,
+      10.802091
+    ]
+  },
+  {
+    "SId": "28bf167c-5fe7-4b03-8225-e7390fa7e170",
+    "StationName": "Chandanattop Halt",
+    "StationShortCode": "CTPE",
+    "StationLocation": [
+      76.64532,
+      8.932478000000001
+    ]
+  },
+  {
+    "SId": "085b7910-2195-4232-b11b-3f8442e17476",
+    "StationName": "Dhanuvachapuram",
+    "StationShortCode": "DAVM",
+    "StationLocation": [
+      77.124352,
+      8.378802
+    ]
+  },
+  {
+    "SId": "8ff7f98c-3d96-45a2-97ba-271e721450f9",
+    "StationName": "Pudukad",
+    "StationShortCode": "PUK",
+    "StationLocation": [
+      76.26070700000001,
+      10.420507
+    ]
+  },
+  {
+    "SId": "11e73d8b-d4e7-47e7-b7ff-09c35de76df1",
+    "StationName": "Nellayi",
+    "StationShortCode": "NYI",
+    "StationLocation": [
+      76.275994,
+      10.392415000000002
+    ]
+  },
+  {
+    "SId": "7325abf7-7793-4586-82e0-9b6506af5d05",
+    "StationName": "Irinjalakuda",
+    "StationShortCode": "IJK",
+    "StationLocation": [
+      76.280924,
+      10.339456
+    ]
+  },
+  {
+    "SId": "7d914b58-eac2-43e6-9d57-37177b16f3a8",
+    "StationName": "Chalakudi",
+    "StationShortCode": "CKI",
+    "StationLocation": [
+      76.3218076,
+      10.3017975
+    ]
+  },
+  {
+    "SId": "04885cfe-65f1-452c-8d63-4c79abb14d09",
+    "StationName": "Divine Nagar",
+    "StationShortCode": "DINR",
+    "StationLocation": [
+      76.3363143628,
+      10.2853993721
+    ]
+  },
+  {
+    "SId": "28f87c3e-2346-4dcf-bb1d-0abc0ae714e3",
+    "StationName": "Koratti Angadi",
+    "StationShortCode": "KRAN",
+    "StationLocation": [
+      76.355901,
+      10.260123
+    ]
+  },
+  {
+    "SId": "15eda8c5-6923-4eab-87db-09f43a9791f1",
+    "StationName": "Karukkutty",
+    "StationShortCode": "KUC",
+    "StationLocation": [
+      76.373077,
+      10.225757
+    ]
+  },
+  {
+    "SId": "68d67191-1bd4-4d74-af70-e49bc5ceaabd",
+    "StationName": "Angamali",
+    "StationShortCode": "AFK",
+    "StationLocation": [
+      76.37786,
+      10.183676
+    ]
+  },
+  {
+    "SId": "6bc5b581-e600-4004-8156-fea2383093b6",
+    "StationName": "Chovvara",
+    "StationShortCode": "CWR",
+    "StationLocation": [
+      76.37218899999999,
+      10.133064
+    ]
+  },
+  {
+    "SId": "2dacfce5-5352-4b69-90df-b09c5a0817c2",
+    "StationName": "Aluva",
+    "StationShortCode": "AWY",
+    "StationLocation": [
+      76.356508,
+      10.108163
+    ]
+  },
+  {
+    "SId": "8325a7da-f417-4a5e-9966-709d9d919bb6",
+    "StationName": "Kalamassery",
+    "StationShortCode": "KLMR",
+    "StationLocation": [
+      76.32695600000001,
+      10.061818
+    ]
+  },
+  {
+    "SId": "7b102457-d05d-452e-b4f4-e3cb523cf769",
+    "StationName": "Edappally",
+    "StationShortCode": "IPL",
+    "StationLocation": [
+      76.298271,
+      10.034338
+    ]
+  },
+  {
+    "SId": "abbb8d9e-1845-422c-922b-55e182a06b2f",
+    "StationName": "Ernakulam Town",
+    "StationShortCode": "ERN",
+    "StationLocation": [
+      76.2861,
+      9.991582000000001
+    ]
+  },
+  {
+    "SId": "260db87b-3396-425e-bae3-234f8354f5dc",
+    "StationName": "Walayar",
+    "StationShortCode": "WRA",
+    "StationLocation": [
+      76.8376135147,
+      10.8471810329
+    ]
+  },
+  {
+    "SId": "80541977-8d2f-4b0a-bb1d-38a80f8142a3",
+    "StationName": "Chullimada",
+    "StationShortCode": "CLMD",
+    "StationLocation": [
+      76.801793,
+      10.837164999999999
+    ]
+  },
+  {
+    "SId": "19131ef4-075e-45a5-a909-8e2642db0f82",
+    "StationName": "Kumbalam",
+    "StationShortCode": "KUMM",
+    "StationLocation": [
+      76.3116,
+      9.906723
+    ]
+  },
+  {
+    "SId": "000eed30-895f-407b-b865-f7a0e8b58426",
+    "StationName": "Aroor Halt",
+    "StationShortCode": "AROR",
+    "StationLocation": [
+      76.30283299999999,
+      9.8791031
+    ]
+  },
+  {
+    "SId": "5999a587-59de-41df-8a39-d2b08aaa0f5d",
+    "StationName": "Ezhuppunna",
+    "StationShortCode": "EZP",
+    "StationLocation": [
+      76.302391,
+      9.820288000000001
+    ]
+  },
+  {
+    "SId": "3539d473-cc4e-488e-93c8-af93306bae29",
+    "StationName": "Turavur",
+    "StationShortCode": "TUVR",
+    "StationLocation": [
+      76.309979,
+      9.772809
+    ]
+  },
+  {
+    "SId": "48e0ff3e-0c04-4fd9-82c9-f862d5e6cc1a",
+    "StationName": "Angadippuram",
+    "StationShortCode": "AAM",
+    "StationLocation": [
+      76.20734300000001,
+      10.979489000000001
+    ]
+  },
+  {
+    "SId": "237d8cc5-4185-425a-82a6-c4a44161ec9b",
+    "StationName": "Kundara",
+    "StationShortCode": "KUV",
+    "StationLocation": [
+      76.67854899999999,
+      8.960373
+    ]
+  },
+  {
+    "SId": "b3564339-2477-4287-ae05-76bb05b8a12c",
+    "StationName": "Nilambur Road",
+    "StationShortCode": "NIL",
+    "StationLocation": [
+      76.254779,
+      11.278805
+    ]
+  },
+  {
+    "SId": "af70bd01-c445-4482-81d8-e23a0cb8996b",
+    "StationName": "Thrissur Ollur Halt",
+    "StationShortCode": "OLR",
+    "StationLocation": [
+      76.237184,
+      10.473341999999999
+    ]
+  },
+  {
+    "SId": "825bc07d-b26b-4b6f-984b-2eb7208d3bed",
+    "StationName": "Punalur",
+    "StationShortCode": "PUU",
+    "StationLocation": [
+      76.916104,
+      9.023336
+    ]
+  },
+  {
+    "SId": "f3b7816c-6c5d-4fed-91b1-e25504026a11",
+    "StationName": "Karuvatta Halt",
+    "StationShortCode": "KVTA",
+    "StationLocation": [
+      76.431242,
+      9.316791
+    ]
+  },
+  {
+    "SId": "bf010afb-2a83-4ccf-be65-120760b5b423",
+    "StationName": "Dharmadam",
+    "StationShortCode": "DMD",
+    "StationLocation": [
+      75.46377,
+      11.778949
+    ]
+  },
+  {
+    "SId": "3a0f1d69-f0aa-49a3-81fd-b9448dc58b58",
+    "StationName": "Quilandi",
+    "StationShortCode": "QLD",
+    "StationLocation": [
+      75.693924,
+      11.446139
+    ]
+  },
+  {
+    "SId": "0361ebce-ccd7-4807-b32f-c50aaa8e1f47",
+    "StationName": "Ernakulam Jn",
+    "StationShortCode": "ERS",
+    "StationLocation": [
+      76.290672,
+      9.969541999999999
+    ]
+  },
+  {
+    "SId": "8a5677a3-baed-4f58-896d-fbfcf11209c0",
+    "StationName": "Shoranur Jn",
+    "StationShortCode": "SRR",
+    "StationLocation": [
+      76.27219600000001,
+      10.758854999999999
+    ]
+  },
+  {
+    "SId": "7c474def-b533-44ec-b157-3be17faea6b6",
+    "StationName": "Bekal Fort",
+    "StationShortCode": "BFR",
+    "StationLocation": [
+      75.04278599999999,
+      12.385524
+    ]
+  },
+  {
+    "SId": "e1144c4c-1bc8-4512-8061-abc167529fc5",
+    "StationName": "Charvattur",
+    "StationShortCode": "CHV",
+    "StationLocation": [
+      75.15435,
+      12.213321
+    ]
+  },
+  {
+    "SId": "b6728324-2958-48c1-9899-122004506a53",
+    "StationName": "Chandera",
+    "StationShortCode": "CDRA",
+    "StationLocation": [
+      75.168292,
+      12.179818
+    ]
+  },
+  {
+    "SId": "bd3277b2-ec24-45f2-8bbd-27dfcc3da969",
+    "StationName": "Elimala",
+    "StationShortCode": "ELM",
+    "StationLocation": [
+      75.2308476031,
+      12.0686868024
+    ]
+  },
+  {
+    "SId": "0ffcd0b5-0105-4e9b-8211-1be316535c6a",
+    "StationName": "Guruvayur",
+    "StationShortCode": "GUV",
+    "StationLocation": [
+      76.045457,
+      10.596896
+    ]
+  },
+  {
+    "SId": "efc84668-3186-497e-a4b6-63e334180fba",
+    "StationName": "Chemancheri",
+    "StationShortCode": "CMC",
+    "StationLocation": [
+      75.720039,
+      11.405279
+    ]
+  },
+  {
+    "SId": "88339fb1-990c-4bd0-86df-9d69a4b9dc35",
+    "StationName": "Elattur",
+    "StationShortCode": "ETR",
+    "StationLocation": [
+      75.741119,
+      11.346337
+    ]
+  },
+  {
+    "SId": "efeca2e7-8d9d-4e40-a9d5-5f6118663ea1",
+    "StationName": "Kozhikode",
+    "StationShortCode": "CLT",
+    "StationLocation": [
+      75.780407,
+      11.246234
+    ]
+  },
+  {
+    "SId": "42e1d2a1-87e3-4adf-a0f5-e7669c84fd3c",
+    "StationName": "Ferok",
+    "StationShortCode": "FK",
+    "StationLocation": [
+      75.8302845,
+      11.174972200000001
+    ]
+  },
+  {
+    "SId": "f6403c2c-2095-4d2c-9bfc-95b1a48f84cf",
+    "StationName": "Parpanangadi",
+    "StationShortCode": "PGI",
+    "StationLocation": [
+      75.861006,
+      11.045910000000001
+    ]
+  },
+  {
+    "SId": "cedb7ef5-6c74-48b1-a38c-c08fb243f9ac",
+    "StationName": "Vallathol Nagar",
+    "StationShortCode": "VTK",
+    "StationLocation": [
+      76.280933,
+      10.731563
+    ]
+  },
+  {
+    "SId": "6364a935-a504-4a90-ba68-182a6c0016be",
+    "StationName": "Kannur South",
+    "StationShortCode": "CS",
+    "StationLocation": [
+      75.400253,
+      11.866899
+    ]
+  },
+  {
+    "SId": "97ede044-308b-43f2-b641-b97fb92770ef",
+    "StationName": "Etakkot",
+    "StationShortCode": "ETK",
+    "StationLocation": [
+      75.44379699999999,
+      11.806194999999999
+    ]
+  },
+  {
+    "SId": "eab0e1ae-3e60-4cd9-8065-b8e68de37f8b",
+    "StationName": "Iringal",
+    "StationShortCode": "IGL",
+    "StationLocation": [
+      75.608869,
+      11.548117000000001
+    ]
+  },
+  {
+    "SId": "23fd47a2-ede9-4666-9975-f448b8863872",
+    "StationName": "Kasaragod",
+    "StationShortCode": "KGQ",
+    "StationLocation": [
+      74.987652,
+      12.491175
+    ]
+  },
+  {
+    "SId": "e8b4831d-812e-484b-bd7a-b18809839582",
+    "StationName": "Kundara East",
+    "StationShortCode": "KFV",
+    "StationLocation": [
+      76.691337,
+      8.969608
+    ]
+  },
+  {
+    "SId": "4bf0ca16-4f58-4105-8fa3-a0bbfca1b8d5",
+    "StationName": "Kottarakara",
+    "StationShortCode": "KKZ",
+    "StationLocation": [
+      76.765986,
+      9.000279
+    ]
+  },
+  {
+    "SId": "919ef3db-57ae-449a-ae2b-4917399272b4",
+    "StationName": "Kumbla",
+    "StationShortCode": "KMQ",
+    "StationLocation": [
+      74.943503,
+      12.590263
+    ]
+  },
+  {
+    "SId": "10002688-6fee-42de-b34e-2fd69ef3fa4b",
+    "StationName": "Kilikollur",
+    "StationShortCode": "KLQ",
+    "StationLocation": [
+      76.6327939999,
+      8.9182952655
+    ]
+  },
+  {
+    "SId": "bf763c34-db71-4b24-96b3-252aaf603783",
+    "StationName": "Kannapuram",
+    "StationShortCode": "KPQ",
+    "StationLocation": [
+      75.31381,
+      11.984076
+    ]
+  },
+  {
+    "SId": "0a1dc52c-891a-4cdb-94af-19bbda7ffbf5",
+    "StationName": "Kotikulam",
+    "StationShortCode": "KQK",
+    "StationLocation": [
+      75.024008,
+      12.423507
+    ]
+  },
+  {
+    "SId": "a788ebe2-7508-43ba-a73d-5c23e1986362",
+    "StationName": "Kuttippuram",
+    "StationShortCode": "KTU",
+    "StationLocation": [
+      76.03339700000001,
+      10.845723999999999
+    ]
+  },
+  {
+    "SId": "f724b8d6-e884-4024-89e8-7e625e67e6bb",
+    "StationName": "Kulukkalur",
+    "StationShortCode": "KZC",
+    "StationLocation": [
+      76.23944300000001,
+      10.868287
+    ]
+  },
+  {
+    "SId": "cf796985-bd0b-47fc-900e-75bec9da33c2",
+    "StationName": "Manjeshwar",
+    "StationShortCode": "MJS",
+    "StationLocation": [
+      74.887582,
+      12.724197
+    ]
+  },
+  {
+    "SId": "57ba0cad-b6a5-4bb0-b391-e7f14511dbc2",
+    "StationName": "Melattur",
+    "StationShortCode": "MLTR",
+    "StationLocation": [
+      76.272805,
+      11.06543
+    ]
+  },
+  {
+    "SId": "ed97c19e-6270-4efa-9d7e-482f3d16cd6e",
+    "StationName": "Nemem",
+    "StationShortCode": "NEM",
+    "StationLocation": [
+      77.009693,
+      8.455233
+    ]
+  },
+  {
+    "SId": "9412dc0e-47b8-40c3-9e74-06537d5bf519",
+    "StationName": "Tuvvur",
+    "StationShortCode": "TUV",
+    "StationLocation": [
+      76.282913,
+      11.120495
+    ]
+  },
+  {
+    "SId": "a4130897-cd78-43b3-b2da-f506705054fa",
+    "StationName": "Palghat Town",
+    "StationShortCode": "PGTN",
+    "StationLocation": [
+      76.65216699999999,
+      10.7753892
+    ]
+  },
+  {
+    "SId": "2e5be49d-3078-4ad4-a54f-34348cfc8391",
+    "StationName": "Payangadi",
+    "StationShortCode": "PAZ",
+    "StationLocation": [
+      75.2596,
+      12.021507999999999
+    ]
+  },
+  {
+    "SId": "e2cd76db-4a32-4cbe-a0b3-dc760a9e0703",
+    "StationName": "Perssannur",
+    "StationShortCode": "PEU",
+    "StationLocation": [
+      76.065488,
+      10.840824
+    ]
+  },
+  {
+    "SId": "6d12a769-136c-47df-96bf-9cb0b662b7ab",
+    "StationName": "Tirunnavaya",
+    "StationShortCode": "TUA",
+    "StationLocation": [
+      75.985675,
+      10.874721
+    ]
+  },
+  {
+    "SId": "e2d6d10f-c0f7-441d-b38e-2501bc048103",
+    "StationName": "Punnapura",
+    "StationShortCode": "PNPR",
+    "StationLocation": [
+      76.333771,
+      9.449651
+    ]
+  },
+  {
+    "SId": "86a15675-e71e-4cc5-bf4a-cb8ff7a33f0c",
+    "StationName": "Pappinissery",
+    "StationShortCode": "PPNS",
+    "StationLocation": [
+      75.347422,
+      11.941779
+    ]
+  },
+  {
+    "SId": "65ef2061-3692-4ab1-ac1e-0a357ae4450c",
+    "StationName": "Payyoli",
+    "StationShortCode": "PYOL",
+    "StationLocation": [
+      75.617595,
+      11.516715999999999
+    ]
+  },
+  {
+    "SId": "1294edbf-2960-4857-8ea0-960adbbb27ad",
+    "StationName": "Pallippuram",
+    "StationShortCode": "PUM",
+    "StationLocation": [
+      76.1123604352,
+      10.8413738184
+    ]
+  },
+  {
+    "SId": "5d743c69-bf59-478d-888b-260a145a2b98",
+    "StationName": "Tanur",
+    "StationShortCode": "TA",
+    "StationLocation": [
+      75.880597,
+      10.97954
+    ]
+  },
+  {
+    "SId": "b6b4dd33-9563-4c1a-a76a-a2ba7e2a10f7",
+    "StationName": "Thalassery",
+    "StationShortCode": "TLY",
+    "StationLocation": [
+      75.492987,
+      11.75314
+    ]
+  },
+  {
+    "SId": "7ea77b65-efb8-4e47-ad0e-c6abdfefea21",
+    "StationName": "Tirur",
+    "StationShortCode": "TIR",
+    "StationLocation": [
+      75.92186500000001,
+      10.917757
+    ]
+  },
+  {
+    "SId": "98760566-a0b3-4f5e-939e-52fdf091d702",
+    "StationName": "Vadanam Kurussi Halt",
+    "StationShortCode": "VDKS",
+    "StationLocation": [
+      76.252871,
+      10.788139
+    ]
+  },
+  {
+    "SId": "81c25ca9-a03e-4d45-9925-62f19dcb186d",
+    "StationName": "West Hill",
+    "StationShortCode": "WH",
+    "StationLocation": [
+      75.765232,
+      11.28603
+    ]
+  },
+  {
+    "SId": "c5fda016-d93e-4a97-8079-4a5ba7676f8c",
+    "StationName": "Vaniyambalam",
+    "StationShortCode": "VNB",
+    "StationLocation": [
+      76.260513,
+      11.188459
+    ]
+  },
+  {
+    "SId": "a8659ebb-a6cb-4a7c-bcdf-59d62b3a4fa2",
+    "StationName": "Vellayil",
+    "StationShortCode": "VLL",
+    "StationLocation": [
+      75.77461,
+      11.264509
+    ]
+  },
+  {
+    "SId": "21fb64f2-47f8-4d48-94f8-487850c7b0c7",
+    "StationName": "Vailapuzha",
+    "StationShortCode": "VPZ",
+    "StationLocation": [
+      76.252495,
+      10.842075999999999
+    ]
+  },
+  {
+    "SId": "a2985270-cae6-446a-bf89-7e3f43f3fd1f",
+    "StationName": "Amaravila Halt",
+    "StationShortCode": "AMVA",
+    "StationLocation": [
+      77.10036199999999,
+      8.397108999999999
+    ]
+  },
+  {
+    "SId": "30892372-a80b-43af-bee5-de985b76ab15",
+    "StationName": "Balaramapuram",
+    "StationShortCode": "BRAM",
+    "StationLocation": [
+      77.05132087999999,
+      8.430107451
+    ]
+  },
+  {
+    "SId": "bee3284e-fa9d-4405-88ab-30b605a591d1",
+    "StationName": "Ezhukone",
+    "StationShortCode": "EKN",
+    "StationLocation": [
+      76.715068,
+      8.979142999999999
+    ]
+  },
+  {
+    "SId": "f0836fed-040f-4cb3-84ad-1ff2036a6407",
+    "StationName": "Harippad",
+    "StationShortCode": "HAD",
+    "StationLocation": [
+      76.46222900000001,
+      9.279602
+    ]
+  },
+  {
+    "SId": "edd4ba11-8697-4c47-aa88-42ed657f6ac4",
+    "StationName": "Jagannath Temple Gate",
+    "StationShortCode": "JGE",
+    "StationLocation": [
+      75.507837,
+      11.737975
+    ]
+  },
+  {
+    "SId": "f412065e-b57a-4de7-8201-63a094002376",
+    "StationName": "Kadalundi",
+    "StationShortCode": "KN",
+    "StationLocation": [
+      75.82803299999999,
+      11.133481
+    ]
+  },
+  {
+    "SId": "c426096f-b26e-45ab-8430-31773f66f49e",
+    "StationName": "Karakkad",
+    "StationShortCode": "KRKD",
+    "StationLocation": [
+      76.227856,
+      10.782804
+    ]
+  },
+  {
+    "SId": "7d601bc9-45e5-493a-b6f3-47e620cd844e",
+    "StationName": "Pattikkad",
+    "StationShortCode": "PKQ",
+    "StationLocation": [
+      76.23179499999999,
+      11.020627
+    ]
+  },
+  {
+    "SId": "1d8c8f4d-2dff-41a1-99df-ed05bf40c089",
+    "StationName": "Uppala",
+    "StationShortCode": "UAA",
+    "StationLocation": [
+      74.906488,
+      12.6698
+    ]
+  },
+  {
+    "SId": "6192e2e9-0956-403b-b5d1-6ce3bdf78049",
+    "StationName": "Trikarpur",
+    "StationShortCode": "TKQ",
+    "StationLocation": [
+      75.176143,
+      12.142185
+    ]
+  },
+  {
+    "SId": "10ab9e00-9812-4c01-bda3-02d0732332ca",
+    "StationName": "Valapattanam",
+    "StationShortCode": "VAPM",
+    "StationLocation": [
+      75.346365,
+      11.927728
+    ]
+  },
+  {
+    "SId": "5568fa6e-caef-4cac-9ba9-aac2fb156971",
+    "StationName": "Tikkotti",
+    "StationShortCode": "TKT",
+    "StationLocation": [
+      75.626246,
+      11.490426
+    ]
+  },
+  {
+    "SId": "b5b0d2a6-8097-4697-86ab-c7776eb8d12f",
+    "StationName": "Vallikunnu",
+    "StationShortCode": "VLI",
+    "StationLocation": [
+      75.85165099999999,
+      11.09046
+    ]
+  },
+  {
+    "SId": "78a75918-d435-4a57-bd4e-07ccbae6d522",
+    "StationName": "Kannur",
+    "StationShortCode": "CAN",
+    "StationLocation": [
+      75.3683267,
+      11.870694199999999
+    ]
+  },
+  {
+    "SId": "8f7f1937-1ec1-4100-b2ed-571b59db9719",
+    "StationName": "Cheppad Halt",
+    "StationShortCode": "CHPD",
+    "StationLocation": [
+      76.47674199999999,
+      9.232679000000001
+    ]
+  },
+  {
+    "SId": "4c52c587-145a-4c83-a2bc-1f229c2256b0",
+    "StationName": "Auvaneeswaram",
+    "StationShortCode": "AVS",
+    "StationLocation": [
+      76.852807,
+      9.036513
+    ]
+  },
+  {
+    "SId": "ab8d82ee-4ade-4be8-a7d2-8ed3156d06b6",
+    "StationName": "Cherukara",
+    "StationShortCode": "CQA",
+    "StationLocation": [
+      76.22811899999999,
+      10.929228
+    ]
+  },
+  {
+    "SId": "aba825d8-9c3a-498f-862e-742e6742f809",
+    "StationName": "Pattambi",
+    "StationShortCode": "PTB",
+    "StationLocation": [
+      76.1813366473,
+      10.8019329802
+    ]
+  },
+  {
+    "SId": "5ac552bd-eace-4253-ad04-4555f849ac09",
+    "StationName": "Kalanad Halt",
+    "StationShortCode": "KLAD",
+    "StationLocation": [
+      74.998515,
+      12.467679
+    ]
+  },
+  {
+    "SId": "f246c747-fb9e-4be9-8763-da439aa2a1a4",
+    "StationName": "Kodumunda",
+    "StationShortCode": "KODN",
+    "StationLocation": [
+      76.1428790756,
+      10.816930512899999
+    ]
+  },
+  {
+    "SId": "a9dcc6e9-4843-4522-ba8f-37b2b9438377",
+    "StationName": "Kallayi",
+    "StationShortCode": "KUL",
+    "StationLocation": [
+      75.788884,
+      11.234606999999999
+    ]
+  },
+  {
+    "SId": "d02b2624-e4c1-4602-a943-0d70b7816814",
+    "StationName": "Mukkali",
+    "StationShortCode": "MUKE",
+    "StationLocation": [
+      75.55036199999999,
+      11.68423
+    ]
+  },
+  {
+    "SId": "02730d6c-b177-42cb-afa6-8949951e3d8f",
+    "StationName": "Nileshwar",
+    "StationShortCode": "NLE",
+    "StationLocation": [
+      75.13575,
+      12.255885000000001
+    ]
+  },
+  {
+    "SId": "70fb7c90-74a0-41a5-aa2d-42bff9b21159",
+    "StationName": "Nadapuram Road",
+    "StationShortCode": "NAU",
+    "StationLocation": [
+      75.575581,
+      11.639509
+    ]
+  },
+  {
+    "SId": "97b9df23-f95b-4c58-b9d5-c3c9192f890c",
+    "StationName": "Neyyattinkara",
+    "StationShortCode": "NYY",
+    "StationLocation": [
+      77.08111000000001,
+      8.41041
+    ]
+  },
+  {
+    "SId": "efe470a3-53a0-443d-a787-ed0a43ec8a21",
+    "StationName": "Kanhangad",
+    "StationShortCode": "KZE",
+    "StationLocation": [
+      75.08524799999999,
+      12.320267999999999
+    ]
+  },
+  {
+    "SId": "806c2fdb-5e0a-4354-9989-63e05a575793",
+    "StationName": "Parashshala",
+    "StationShortCode": "PASA",
+    "StationLocation": [
+      77.16548966,
+      8.3398400051
+    ]
+  },
+  {
+    "SId": "ccc3b4ce-9846-489d-b30c-7dfabb996874",
+    "StationName": "Vadakara",
+    "StationShortCode": "BDJ",
+    "StationLocation": [
+      75.5869409,
+      11.593321399999999
+    ]
+  },
+  {
+    "SId": "a4c97887-7b6a-4029-b688-0254637f7722",
+    "StationName": "Pudunagaram",
+    "StationShortCode": "PDGM",
+    "StationLocation": [
+      76.684608,
+      10.683752
+    ]
+  },
+  {
+    "SId": "15136c75-5322-46b2-aa82-88219ee0b2c7",
+    "StationName": "Vellarakkad",
+    "StationShortCode": "VEK",
+    "StationLocation": [
+      75.653412,
+      11.4723
+    ]
+  },
+  {
+    "SId": "d61f1578-3674-4084-89b7-4faac66aa241",
+    "StationName": "Kuri",
+    "StationShortCode": "KIF",
+    "StationLocation": [
+      76.8173945569,
+      9.035098526
+    ]
+  },
+  {
+    "SId": "02c24392-90a1-47cc-acb3-e54612cd2478",
+    "StationName": "Payyanur",
+    "StationShortCode": "PAY",
+    "StationLocation": [
+      75.195107,
+      12.092248
+    ]
+  },
+  {
+    "SId": "67ace4de-af5f-482d-a1bd-7e6da8f515ed",
+    "StationName": "Kollengode",
+    "StationShortCode": "KLGD",
+    "StationLocation": [
+      76.697715,
+      10.626984
+    ]
+  },
+  {
+    "SId": "9d43dcbf-de1b-4179-ab6b-ab2435a0c52a",
+    "StationName": "Ambalapuzha",
+    "StationShortCode": "AMPA",
+    "StationLocation": [
+      76.363817,
+      9.386059
+    ]
+  },
+  {
+    "SId": "37ff66bb-fa5e-4d5e-bdbb-fbd07daa79e6",
+    "StationName": "Muthalamada",
+    "StationShortCode": "MMDA",
+    "StationLocation": [
+      76.77172300000001,
+      10.626386
+    ]
+  },
+  {
+    "SId": "88fa9ec2-8ec1-4103-97fc-ae9770e82ce5",
+    "StationName": "Takazhi",
+    "StationShortCode": "TZH",
+    "StationLocation": [
+      76.408316,
+      9.3702
+    ]
+  },
+  {
+    "SId": "d1b24456-65b0-431f-b1d5-594e1b38c2d7",
+    "StationName": "Triupunittura",
+    "StationShortCode": "TRTR",
+    "StationLocation": [
+      76.352761,
+      9.9501
+    ]
+  },
+  {
+    "SId": "1d0451bf-c032-4321-8fe6-3cc493ad2a3d",
+    "StationName": "Kurikad",
+    "StationShortCode": "KFE",
+    "StationLocation": [
+      76.37635,
+      9.923276999999999
+    ]
+  },
+  {
+    "SId": "562b4d9e-565a-4470-9118-bf0336b4009a",
+    "StationName": "Mulanturutti",
+    "StationShortCode": "MNTT",
+    "StationLocation": [
+      76.389673,
+      9.901576
+    ]
+  },
+  {
+    "SId": "dddd34f2-e378-4ef0-a76a-7711e1e880ac",
+    "StationName": "Kanjiramittam",
+    "StationShortCode": "KPTM",
+    "StationLocation": [
+      76.410949,
+      9.862331
+    ]
+  },
+  {
+    "SId": "b3917cb8-67a6-4b3c-8e7b-12115f9ee039",
+    "StationName": "Trivandrum Central",
+    "StationShortCode": "TVC",
+    "StationLocation": [
+      76.95120999999999,
+      8.486679
+    ]
+  },
+  {
+    "SId": "a813d0b7-02e8-4d8e-9b97-9f8cebdffb8f",
+    "StationName": "Trivandrum Pettai",
+    "StationShortCode": "TVP",
+    "StationLocation": [
+      76.931673,
+      8.494524
+    ]
+  },
+  {
+    "SId": "7e6ee9d6-2899-48e6-83d5-a349f6df959a",
+    "StationName": "Piravam Road",
+    "StationShortCode": "PVRD",
+    "StationLocation": [
+      76.454731,
+      9.828669
+    ]
+  },
+  {
+    "SId": "03d0c623-63d6-4b15-912e-4082a922d09c",
+    "StationName": "Vaikam Road",
+    "StationShortCode": "VARD",
+    "StationLocation": [
+      76.47461100000001,
+      9.777648
+    ]
+  },
+  {
+    "SId": "f2458b78-7c1d-44c5-8826-89ce78f5d404",
+    "StationName": "Kaduturutti Halt",
+    "StationShortCode": "KDTY",
+    "StationLocation": [
+      76.49260000000001,
+      9.756128
+    ]
+  },
+  {
+    "SId": "04929e0a-7329-46a1-b206-96b701cd615c",
+    "StationName": "Kuruppanthara",
+    "StationShortCode": "KRPP",
+    "StationLocation": [
+      76.51060899999999,
+      9.734535000000001
+    ]
+  },
+  {
+    "SId": "fa17784a-c7f8-4a3d-a654-227451c10c31",
+    "StationName": "Ettumanur",
+    "StationShortCode": "ETM",
+    "StationLocation": [
+      76.545152,
+      9.676196000000001
+    ]
+  },
+  {
+    "SId": "465b061b-788f-402c-9e62-5408e86e9ab1",
+    "StationName": "Kumaranallur",
+    "StationShortCode": "KFQ",
+    "StationLocation": [
+      76.531679,
+      9.617136
+    ]
+  },
+  {
+    "SId": "df65202d-4568-4be5-9a95-0276541337d6",
+    "StationName": "Kottayam",
+    "StationShortCode": "KTYM",
+    "StationLocation": [
+      76.532168,
+      9.594177
+    ]
+  },
+  {
+    "SId": "86f7e470-9fce-488f-9a6c-f23e612c2854",
+    "StationName": "Chingavanam",
+    "StationShortCode": "CGV",
+    "StationLocation": [
+      76.525885,
+      9.537757000000001
+    ]
+  },
+  {
+    "SId": "e774d216-6cc7-4622-a47a-727882472140",
+    "StationName": "Changanaseri",
+    "StationShortCode": "CGY",
+    "StationLocation": [
+      76.54841400000001,
+      9.449881
+    ]
+  },
+  {
+    "SId": "74bd5828-d4e5-4569-97d3-a13254901b7c",
+    "StationName": "Tiruvalla",
+    "StationShortCode": "TRVL",
+    "StationLocation": [
+      76.580267,
+      9.392148
+    ]
+  },
+  {
+    "SId": "e0c1179b-5bf0-4079-bebf-819501a0fee4",
+    "StationName": "Chengannur",
+    "StationShortCode": "CNGR",
+    "StationLocation": [
+      76.608271,
+      9.319504
+    ]
+  },
+  {
+    "SId": "4cf9d73a-73d0-45d1-b51e-14ad99d9e82a",
+    "StationName": "Cheriyanad",
+    "StationShortCode": "CYN",
+    "StationLocation": [
+      76.585087,
+      9.273119000000001
+    ]
+  },
+  {
+    "SId": "013cb4c0-557e-481f-a5f4-581968780ee6",
+    "StationName": "Mavelikara",
+    "StationShortCode": "MVLK",
+    "StationLocation": [
+      76.545692,
+      9.239487
+    ]
+  },
+  {
+    "SId": "eb464d6e-3e48-42f5-a6fa-1b4592cdd6ad",
+    "StationName": "Kayankulam Jn",
+    "StationShortCode": "KYJ",
+    "StationLocation": [
+      76.512933,
+      9.182586
+    ]
+  },
+  {
+    "SId": "4320d824-b5df-4d86-9923-d0689922cba1",
+    "StationName": "Ochira",
+    "StationShortCode": "OCR",
+    "StationLocation": [
+      76.525576,
+      9.132022999999998
+    ]
+  },
+  {
+    "SId": "6d31cdb2-1523-43e3-a790-643c27e28be2",
+    "StationName": "Karunagapalli",
+    "StationShortCode": "KPY",
+    "StationLocation": [
+      76.54402300000001,
+      9.065268000000001
+    ]
+  },
+  {
+    "SId": "15dfe035-12b2-433b-bbef-4ba21f89c1da",
+    "StationName": "Sasthankotta",
+    "StationShortCode": "STKT",
+    "StationLocation": [
+      76.59888294679999,
+      9.0323103106
+    ]
+  },
+  {
+    "SId": "d4f45f93-2a6d-4769-8185-221877c8844f",
+    "StationName": "Munroturuttu",
+    "StationShortCode": "MQO",
+    "StationLocation": [
+      76.6119083966,
+      8.9949977685
+    ]
+  },
+  {
+    "SId": "b9f8be5c-f7b6-428d-b9a2-27ba41bc99be",
+    "StationName": "Perinad",
+    "StationShortCode": "PRND",
+    "StationLocation": [
+      76.620341,
+      8.947916000000001
+    ]
+  },
+  {
+    "SId": "9296c720-4fb1-4b29-8ef7-8385f23e9d5d",
+    "StationName": "Kollam Jn",
+    "StationShortCode": "QLN",
+    "StationLocation": [
+      76.59675299999999,
+      8.886586000000001
+    ]
+  },
+  {
+    "SId": "a0d39c92-c16b-4845-8667-2c35f2df80b1",
+    "StationName": "Iravipuram",
+    "StationShortCode": "IRP",
+    "StationLocation": [
+      76.623059,
+      8.866947999999999
+    ]
+  },
+  {
+    "SId": "6d03c25c-dbb1-4aff-9d68-ee5ff21736e3",
+    "StationName": "Mayyanad",
+    "StationShortCode": "MYY",
+    "StationLocation": [
+      76.64733100000001,
+      8.837759
+    ]
+  },
+  {
+    "SId": "4c9e9c83-f00c-4e9b-a3a8-5de09fe84a30",
+    "StationName": "Paravur",
+    "StationShortCode": "PVU",
+    "StationLocation": [
+      76.66823799999999,
+      8.815758
+    ]
+  },
+  {
+    "SId": "60a1a7c6-c93c-4886-b171-fcf37393b30f",
+    "StationName": "Kappil",
+    "StationShortCode": "KFI",
+    "StationLocation": [
+      76.67962999999999,
+      8.779435
+    ]
+  },
+  {
+    "SId": "cee7c735-b1c8-43b5-807d-59ab4977281b",
+    "StationName": "Edavai",
+    "StationShortCode": "EVA",
+    "StationLocation": [
+      76.69747699999999,
+      8.762883
+    ]
+  },
+  {
+    "SId": "70e84465-e578-4bb4-93d0-93dd516841f5",
+    "StationName": "Varkala",
+    "StationShortCode": "VAK",
+    "StationLocation": [
+      76.722872,
+      8.740732
+    ]
+  },
+  {
+    "SId": "2783c062-c077-412b-b8bc-f95b05c2b8df",
+    "StationName": "Akathumuri",
+    "StationShortCode": "AMY",
+    "StationLocation": [
+      76.758792,
+      8.70031
+    ]
+  },
+  {
+    "SId": "06229f9d-1962-4965-9755-2a3eed11a25e",
+    "StationName": "Kadakavur",
+    "StationShortCode": "KVU",
+    "StationLocation": [
+      76.766672,
+      8.679078
+    ]
+  },
+  {
+    "SId": "edfd8a91-74cb-4dde-8ab5-ee1156fb759f",
+    "StationName": "Chirayinkil",
+    "StationShortCode": "CRY",
+    "StationLocation": [
+      76.7853703,
+      8.658337900000001
+    ]
+  },
+  {
+    "SId": "7138c5b9-56d7-4a12-afe4-7d2b2d309a49",
+    "StationName": "Perunguzhi",
+    "StationShortCode": "PGZ",
+    "StationLocation": [
+      76.808211,
+      8.631561
+    ]
+  },
+  {
+    "SId": "6eb18216-1b94-4823-92d2-c34ab8fcc115",
+    "StationName": "Murukkampuzha",
+    "StationShortCode": "MQU",
+    "StationLocation": [
+      76.830245,
+      8.613629999999999
+    ]
+  },
+  {
+    "SId": "deae89c4-2501-48f6-9a33-5410ccd0fd89",
+    "StationName": "Kaniyapuram",
+    "StationShortCode": "KXP",
+    "StationLocation": [
+      76.854482,
+      8.587612
+    ]
+  },
+  {
+    "SId": "ef15b875-2e77-4523-8e54-3879b0eb2e1a",
+    "StationName": "Kazhakuttam",
+    "StationShortCode": "KZK",
+    "StationLocation": [
+      76.872235,
+      8.555848000000001
+    ]
+  },
+  {
+    "SId": "189f4f08-1444-4874-b2f7-92e70da57b6e",
+    "StationName": "Veli",
+    "StationShortCode": "VELI",
+    "StationLocation": [
+      76.8829192029,
+      8.5225364873
+    ]
+  },
+  {
+    "SId": "55c28180-aed0-4d4b-b309-51ef61e8226d",
+    "StationName": "Kochuveli",
+    "StationShortCode": "KCVL",
+    "StationLocation": [
+      76.8961,
+      8.509254
+    ]
+  },
+  {
+    "SId": "30debf51-f813-40d7-a54e-ad417d969214",
+    "StationName": "Vayalar",
+    "StationShortCode": "VAY",
+    "StationLocation": [
+      76.311408,
+      9.741742
+    ]
+  },
+  {
+    "SId": "83d82274-ccd2-4eda-9ef9-1a564ad198fa",
+    "StationName": "Shertalai",
+    "StationShortCode": "SRTL",
+    "StationLocation": [
+      76.325151,
+      9.690992
+    ]
+  },
+  {
+    "SId": "efa3cafb-0359-47c6-8a20-276473924219",
+    "StationName": "Tiruvizha",
+    "StationShortCode": "TRVZ",
+    "StationLocation": [
+      76.32628100000001,
+      9.641848
+    ]
+  },
+  {
+    "SId": "c8ff9e88-e862-4754-b5e7-49221a23f946",
+    "StationName": "Mararikulam",
+    "StationShortCode": "MAKM",
+    "StationLocation": [
+      76.31801800000001,
+      9.597994
+    ]
+  },
+  {
+    "SId": "7f713e68-17a0-45a0-a52c-862716a49a43",
+    "StationName": "Kalavur Halt",
+    "StationShortCode": "KAVR",
+    "StationLocation": [
+      76.318097,
+      9.567254
+    ]
+  },
+  {
+    "SId": "ca9b3dbb-8a03-4d43-9ccb-c03711c661cd",
+    "StationName": "Tumboli",
+    "StationShortCode": "TMPY",
+    "StationLocation": [
+      76.321857,
+      9.519169999999999
+    ]
+  },
+  {
+    "SId": "d3ffbcc5-554c-4f2c-87b6-9b3644d9537e",
+    "StationName": "Alleppey",
+    "StationShortCode": "ALLP",
+    "StationLocation": [
+      76.32247600000001,
+      9.483759
+    ]
+  }
+]

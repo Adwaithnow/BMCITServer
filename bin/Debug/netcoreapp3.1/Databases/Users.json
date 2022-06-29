@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "7b8dd3d1-c635-4d80-8467-965772de455a",
+    "Email": "string",
+    "FirstName": "string",
+    "LastName": "string",
+    "Password": "string",
+    "IsAdmin": true
+  },
+  {
+    "Id": "af632c14-0dc3-4ff3-8ff2-7b1ee5593f70",
+    "Email": "string",
+    "FirstName": "string",
+    "LastName": "string",
+    "Password": "string",
+    "IsAdmin": false
+  },
+  {
+    "Id": "4fe4522e-aabf-4e10-8f9b-b0f511c3a05f",
+    "Email": "string",
+    "FirstName": "string",
+    "LastName": "string",
+    "Password": "string",
+    "IsAdmin": false
+  },
+  {
+    "Id": "8f42ed61-8a31-4730-b352-87bc83fe9d4c",
+    "Email": "string",
+    "FirstName": "Adwaith",
+    "LastName": "string",
+    "Password": "string",
+    "IsAdmin": false
+  }
+]

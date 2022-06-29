@@ -1,0 +1,86 @@
+[
+  {
+    "RId": "5e2fabe2-e234-49b8-992c-d7a571f383d0",
+    "Train_Id": "3add8da2-ee10-443b-ae37-d34992544a13",
+    "Stations": [
+      {
+        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
+        "PlatForm": 1,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 1.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      },
+      {
+        "StationId": "86f7e470-9fce-488f-9a6c-f23e612c2854",
+        "PlatForm": 1,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 2.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      },
+      {
+        "StationId": "ef15b875-2e77-4523-8e54-3879b0eb2e1a",
+        "PlatForm": 3,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 3.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      },
+      {
+        "StationId": "b3917cb8-67a6-4b3c-8e7b-12115f9ee039",
+        "PlatForm": 0,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 4.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      }
+    ]
+  },
+  {
+    "RId": "6b61538b-a22b-4143-8407-699349f09bfa",
+    "Train_Id": "85d17809-9a86-4b2f-aad0-95ab24305572",
+    "Stations": [
+      {
+        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
+        "PlatForm": 1,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 1.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      },
+      {
+        "StationId": "86f7e470-9fce-488f-9a6c-f23e612c2854",
+        "PlatForm": 1,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 2.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      },
+      {
+        "StationId": "ef15b875-2e77-4523-8e54-3879b0eb2e1a",
+        "PlatForm": 3,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 3.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      },
+      {
+        "StationId": "b3917cb8-67a6-4b3c-8e7b-12115f9ee039",
+        "PlatForm": 0,
+        "TimeArrival": "string",
+        "TimeDeparture": "string",
+        "Distance": 4.0,
+        "HaltTime": 0.0,
+        "Day": 0
+      }
+    ]
+  }
+]

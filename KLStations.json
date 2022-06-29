@@ -1,0 +1,1070 @@
+[
+    {
+      "sl": "01",
+      "Code": "TCR",
+      "StationName": "Thrissur",
+      "Place": "Trichur"
+    },
+    {
+      "sl": "02",
+      "Code": "CLT",
+      "StationName": "Kozhikode Main",
+      "Place": "Calicut"
+    },
+    {
+      "sl": "03",
+      "Code": "ERS",
+      "StationName": "Ernakulam Junction",
+      "Place": "Ernakulam"
+    },
+    {
+      "sl": "04",
+      "Code": "TVC",
+      "StationName": "Trivandrum Central",
+      "Place": "Trivandrum"
+    },
+    {
+      "sl": "05",
+      "Code": "AWY",
+      "StationName": "Aluva",
+      "Place": "Aluva"
+    },
+    {
+      "sl": "06",
+      "Code": "QLN",
+      "StationName": "Kollam Junction",
+      "Place": "Kollam"
+    },
+    {
+      "sl": "07",
+      "Code": "PGT",
+      "StationName": "Palakkad Junction",
+      "Place": "Palghat"
+    },
+    {
+      "sl": "08",
+      "Code": "KYJ",
+      "StationName": "Kayamkulam Junction",
+      "Place": "Kayamkulam"
+    },
+    {
+      "sl": "09",
+      "Code": "SRR",
+      "StationName": "Shoranur Junction",
+      "Place": "Shoranur"
+    },
+    {
+      "sl": "10",
+      "Code": "CAN",
+      "StationName": "Kannur Main",
+      "Place": "Cannanore"
+    },
+    {
+      "sl": "11",
+      "Code": "ERN",
+      "StationName": "Ernakulam Town",
+      "Place": "Ernakulam"
+    },
+    {
+      "sl": "12",
+      "Code": "KTYM",
+      "StationName": "Kottayam",
+      "Place": "Kottayam"
+    },
+    {
+      "sl": "13",
+      "Code": "TIR",
+      "StationName": "Tirur",
+      "Place": "Tirur"
+    },
+    {
+      "sl": "14",
+      "Code": "CNGR",
+      "StationName": "Chengannur",
+      "Place": "Chengannur"
+    },
+    {
+      "sl": "15",
+      "Code": "TLY",
+      "StationName": "Thalassery",
+      "Place": "Tellicherry"
+    },
+    {
+      "sl": "16",
+      "Code": "BDJ",
+      "StationName": "Vadakara",
+      "Place": "Badagara"
+    },
+    {
+      "sl": "17",
+      "Code": "ALLP",
+      "StationName": "Alappuzha",
+      "Place": "Alappuzha"
+    },
+    {
+      "sl": "18",
+      "Code": "KCVL",
+      "StationName": "Trivandrum Kochuveli",
+      "Place": "Trivandrum"
+    },
+    {
+      "sl": "19",
+      "Code": "KGQ",
+      "StationName": "Kasaragod",
+      "Place": "Kasaragod"
+    },
+    {
+      "sl": "20",
+      "Code": "TRVL",
+      "StationName": "Tiruvalla",
+      "Place": "Tiruvalla"
+    },
+    {
+      "sl": "21",
+      "Code": "PAY",
+      "StationName": "Payyanur",
+      "Place": "Payyanur"
+    },
+    {
+      "sl": "22",
+      "Code": "KZE",
+      "StationName": "Kanhangad",
+      "Place": "Kanhangad"
+    },
+    {
+      "sl": "23",
+      "Code": "OTP",
+      "StationName": "Ottappalam",
+      "Place": "Ottappalam"
+    },
+    {
+      "sl": "24",
+      "Code": "VAK",
+      "StationName": "Varkala Sivagiri",
+      "Place": "Varkala Sivagiri Station"
+    },
+    {
+      "sl": "25",
+      "Code": "AFK",
+      "StationName": "Angamaly",
+      "Place": "Angamaly"
+    },
+    {
+      "sl": "26",
+      "Code": "CGY",
+      "StationName": "Changanassery",
+      "Place": "Changanacherry"
+    },
+    {
+      "sl": "27",
+      "Code": "KTU",
+      "StationName": "Kuttippuram",
+      "Place": "Kuttippuram"
+    },
+    {
+      "sl": "28",
+      "Code": "QLD",
+      "StationName": "Koyilandy",
+      "Place": "Koyilandy"
+    },
+    {
+      "sl": "29",
+      "Code": "GUV",
+      "StationName": "Guruvayur",
+      "Place": "Guruvayur"
+    },
+    {
+      "sl": "30",
+      "Code": "MVLK",
+      "StationName": "Mavelikara",
+      "Place": "Mavelikara"
+    },
+    {
+      "sl": "31",
+      "Code": "CKI",
+      "StationName": "Chalakudi",
+      "Place": "Chalakudi"
+    },
+    {
+      "sl": "32",
+      "Code": "KPY",
+      "StationName": "Karunagapalli",
+      "Place": "Karunagappally"
+    },
+    {
+      "sl": "33",
+      "Code": "IJK",
+      "StationName": "Irinjalakuda",
+      "Place": "Irinjalakuda"
+    },
+    {
+      "sl": "34",
+      "Code": "PGI",
+      "StationName": "Parpanangadi",
+      "Place": "Parpanangadi"
+    },
+    {
+      "sl": "35",
+      "Code": "SRTL",
+      "StationName": "Cherthala",
+      "Place": "Shertalai"
+    },
+    {
+      "sl": "36",
+      "Code": "WKI",
+      "StationName": "Wadakanchery",
+      "Place": "Wadakanchery"
+    },
+    {
+      "sl": "37",
+      "Code": "FK",
+      "StationName": "Ferok",
+      "Place": "Feroke"
+    },
+    {
+      "sl": "38",
+      "Code": "PVU",
+      "StationName": "Paravur",
+      "Place": "Paravur"
+    },
+    {
+      "sl": "39",
+      "Code": "PTB",
+      "StationName": "Pattambi",
+      "Place": "Pattambi"
+    },
+    {
+      "sl": "40",
+      "Code": "NLE",
+      "StationName": "Nileshwar",
+      "Place": "Nileshwar"
+    },
+    {
+      "sl": "41",
+      "Code": "AMPA",
+      "StationName": "Ambalappuzha",
+      "Place": "Ambalappuzha"
+    },
+    {
+      "sl": "42",
+      "Code": "HAD",
+      "StationName": "Haripad",
+      "Place": "Haripad"
+    },
+    {
+      "sl": "43",
+      "Code": "TRTR",
+      "StationName": "Tripunittura",
+      "Place": "Tripunittura"
+    },
+    {
+      "sl": "44",
+      "Code": "KPQ",
+      "StationName": "Kannapuram",
+      "Place": "Kannapuram"
+    },
+    {
+      "sl": "45",
+      "Code": "STKT",
+      "StationName": "Sasthamkotta",
+      "Place": "Sasthamkotta"
+    },
+    {
+      "sl": "46",
+      "Code": "TA",
+      "StationName": "Tanur",
+      "Place": "Tanur"
+    },
+    {
+      "sl": "47",
+      "Code": "CHV",
+      "StationName": "Charvattur",
+      "Place": "Charvattur"
+    },
+    {
+      "sl": "48",
+      "Code": "PAZ",
+      "StationName": "Payangadi",
+      "Place": "Payangadi"
+    },
+    {
+      "sl": "49",
+      "Code": "PVRD",
+      "StationName": "Piravam Road",
+      "Place": "Piravam Road"
+    },
+    {
+      "sl": "50",
+      "Code": "NYY",
+      "StationName": "Neyyattinkara",
+      "Place": "Neyyattinkara"
+    },
+    {
+      "sl": "51",
+      "Code": "CRY",
+      "StationName": "Chirayinkil",
+      "Place": "Chirayinkil"
+    },
+    {
+      "sl": "52",
+      "Code": "KZK",
+      "StationName": "Kazhakuttam",
+      "Place": "Kazhakkottam"
+    },
+    {
+      "sl": "53",
+      "Code": "PASA",
+      "StationName": "Parassala",
+      "Place": "Parassala"
+    },
+    {
+      "sl": "54",
+      "Code": "KMQ",
+      "StationName": "Kumbala",
+      "Place": "Kumbla (Kumble)"
+    },
+    {
+      "sl": "55",
+      "Code": "PGTN",
+      "StationName": "Palakkad Town",
+      "Place": "Palakkad"
+    },
+    {
+      "sl": "56",
+      "Code": "VNB",
+      "StationName": "Vaniyambalam",
+      "Place": "Vaniyambalam"
+    },
+    {
+      "sl": "57",
+      "Code": "AAM",
+      "StationName": "Angadippuram",
+      "Place": "Angadippuram"
+    },
+    {
+      "sl": "58",
+      "Code": "NIL",
+      "StationName": "Nilambur Road",
+      "Place": "Nilambur Road"
+    },
+    {
+      "sl": "59",
+      "Code": "TVP",
+      "StationName": "Thiruvananthapuram Pettah",
+      "Place": "Trivandrum"
+    },
+    {
+      "sl": "60",
+      "Code": "KVU",
+      "StationName": "Kadakavur",
+      "Place": "Kadakkavoor"
+    },
+    {
+      "sl": "61",
+      "Code": "TUVR",
+      "StationName": "Turavur",
+      "Place": "Turavur"
+    },
+    {
+      "sl": "62",
+      "Code": "IPL",
+      "StationName": "Idappally",
+      "Place": "Idaplli"
+    },
+    {
+      "sl": "63",
+      "Code": "MJS",
+      "StationName": "Manjeshwar",
+      "Place": "Manjeshwar"
+    },
+    {
+      "sl": "64",
+      "Code": "KUV",
+      "StationName": "Kundara",
+      "Place": "Kundara"
+    },
+    {
+      "sl": "65",
+      "Code": "MAKM",
+      "StationName": "Mararikulam",
+      "Place": "Mararikulam"
+    },
+    {
+      "sl": "66",
+      "Code": "VLI",
+      "StationName": "Vallikunnu",
+      "Place": "Vallikunnu"
+    },
+    {
+      "sl": "67",
+      "Code": "AVS",
+      "StationName": "Auvaneswarem",
+      "Place": "Auvaneswarem"
+    },
+    {
+      "sl": "68",
+      "Code": "KQK",
+      "StationName": "Kotikulam",
+      "Place": "Kotikulam"
+    },
+    {
+      "sl": "69",
+      "Code": "KKZ",
+      "StationName": "Kottarakara",
+      "Place": "Kottarakara"
+    },
+    {
+      "sl": "70",
+      "Code": "MYY",
+      "StationName": "Mayyanad",
+      "Place": "Mayyanad"
+    },
+    {
+      "sl": "71",
+      "Code": "PUK",
+      "StationName": "Pudukad",
+      "Place": "Pudukad"
+    },
+    {
+      "sl": "72",
+      "Code": "PUU",
+      "StationName": "Punalur",
+      "Place": "Punalur"
+    },
+    {
+      "sl": "73",
+      "Code": "PNQ",
+      "StationName": "Punkunnam",
+      "Place": "Punkunnam"
+    },
+    {
+      "sl": "74",
+      "Code": "VARD",
+      "StationName": "Vaikam Road",
+      "Place": "Vaikam Road"
+    },
+    {
+      "sl": "75",
+      "Code": "MNTT",
+      "StationName": "Mulanturutti",
+      "Place": "Mulanturutti"
+    },
+    {
+      "sl": "76",
+      "Code": "VAPM",
+      "StationName": "Valapattanam",
+      "Place": "Valapattanam"
+    },
+    {
+      "sl": "77",
+      "Code": "ETM",
+      "StationName": "Ettumanur",
+      "Place": "Ettumanur"
+    },
+    {
+      "sl": "78",
+      "Code": "TKQ",
+      "StationName": "Trikarpur",
+      "Place": "Trikarpur"
+    },
+    {
+      "sl": "79",
+      "Code": "CYN",
+      "StationName": "Cheriyanad",
+      "Place": "Cheriyanad"
+    },
+    {
+      "sl": "80",
+      "Code": "PYOL",
+      "StationName": "Payyoli",
+      "Place": "Payyoli"
+    },
+    {
+      "sl": "81",
+      "Code": "KLQ",
+      "StationName": "Kilikollur",
+      "Place": "Kilikollur"
+    },
+    {
+      "sl": "82",
+      "Code": "BFR",
+      "StationName": "Bekal Fort",
+      "Place": "Bekal Fort"
+    },
+    {
+      "sl": "83",
+      "Code": "KRPP",
+      "StationName": "Kuruppanthara",
+      "Place": "Kuruppanthara"
+    },
+    {
+      "sl": "84",
+      "Code": "EDN",
+      "StationName": "Edamann",
+      "Place": ""
+    },
+    {
+      "sl": "85",
+      "Code": "KLGD",
+      "StationName": "Kollengode",
+      "Place": ""
+    },
+    {
+      "sl": "86",
+      "Code": "PRND",
+      "StationName": "Perinad",
+      "Place": "Perinad"
+    },
+    {
+      "sl": "87",
+      "Code": "AYVN",
+      "StationName": "Aryankavu New Block",
+      "Place": ""
+    },
+    {
+      "sl": "88",
+      "Code": "TUA",
+      "StationName": "Tirunnavaya",
+      "Place": "Tirunnavaya"
+    },
+    {
+      "sl": "89",
+      "Code": "EKN",
+      "StationName": "Ezhukone",
+      "Place": "Ezhukone"
+    },
+    {
+      "sl": "90",
+      "Code": "UAA",
+      "StationName": "Uppala",
+      "Place": "Uppala"
+    },
+    {
+      "sl": "91",
+      "Code": "ELM",
+      "StationName": "Ezhimala",
+      "Place": "Elimala"
+    },
+    {
+      "sl": "92",
+      "Code": "MQU",
+      "StationName": "Murukkampuzha",
+      "Place": "Murukkumpuzha"
+    },
+    {
+      "sl": "93",
+      "Code": "OCR",
+      "StationName": "Ochira",
+      "Place": "Ochira"
+    },
+    {
+      "sl": "94",
+      "Code": "KN",
+      "StationName": "Kadalundi",
+      "Place": "Kadalundi"
+    },
+    {
+      "sl": "95",
+      "Code": "CHPD",
+      "StationName": "Cheppad Halt",
+      "Place": "Cheppad"
+    },
+    {
+      "sl": "96",
+      "Code": "LDY",
+      "StationName": "Lakkiti",
+      "Place": "Lakkiti"
+    },
+    {
+      "sl": "97",
+      "Code": "MGK",
+      "StationName": "Mulangunnathukavu",
+      "Place": "Mulangunnathukavu"
+    },
+    {
+      "sl": "98",
+      "Code": "NEM",
+      "StationName": "Trivandrum Nemom",
+      "Place": "Trivandrum"
+    },
+    {
+      "sl": "99",
+      "Code": "PPNS",
+      "StationName": "Pappinissery",
+      "Place": "Pappinissery"
+    },
+    {
+      "sl": "100",
+      "Code": "BRAM",
+      "StationName": "Balaramapuram",
+      "Place": "Balaramapuram"
+    },
+    {
+      "sl": "101",
+      "Code": "PDGM",
+      "StationName": "Pudunagaram",
+      "Place": ""
+    },
+    {
+      "sl": "102",
+      "Code": "MMDA",
+      "StationName": "Muthalamada",
+      "Place": ""
+    },
+    {
+      "sl": "103",
+      "Code": "OKL",
+      "StationName": "Ottakkal",
+      "Place": ""
+    },
+    {
+      "sl": "104",
+      "Code": "ETR",
+      "StationName": "Elattur",
+      "Place": "Elattur"
+    },
+    {
+      "sl": "105",
+      "Code": "KUC",
+      "StationName": "Karukkutty",
+      "Place": "Karukkutty"
+    },
+    {
+      "sl": "106",
+      "Code": "KUL",
+      "StationName": "Kallayi",
+      "Place": "Kallayi Kozhikode South"
+    },
+    {
+      "sl": "107",
+      "Code": "VTK",
+      "StationName": "Vallathol Nagar",
+      "Place": "Vallathol Nagar"
+    },
+    {
+      "sl": "108",
+      "Code": "KUMM",
+      "StationName": "Kumbalam",
+      "Place": "Kumbalam"
+    },
+    {
+      "sl": "109",
+      "Code": "WH",
+      "StationName": "West Hill",
+      "Place": "West Hill"
+    },
+    {
+      "sl": "110",
+      "Code": "WRA",
+      "StationName": "Walayar",
+      "Place": "Walayar"
+    },
+    {
+      "sl": "111",
+      "Code": "KJKD",
+      "StationName": "Kanjikode",
+      "Place": "Kanjikode"
+    },
+    {
+      "sl": "112",
+      "Code": "CS",
+      "StationName": "Kannur South",
+      "Place": "Cannanore South"
+    },
+    {
+      "sl": "113",
+      "Code": "PUM",
+      "StationName": "Pallippuram",
+      "Place": "Pallippuram"
+    },
+    {
+      "sl": "114",
+      "Code": "JGE",
+      "StationName": "Jagannath Temple Gate",
+      "Place": "Jagannath Temple Gate"
+    },
+    {
+      "sl": "115",
+      "Code": "TKT",
+      "StationName": "Tikkotti",
+      "Place": "Tikkotti"
+    },
+    {
+      "sl": "116",
+      "Code": "PLL",
+      "StationName": "Parli",
+      "Place": "Parli"
+    },
+    {
+      "sl": "117",
+      "Code": "KLMR",
+      "StationName": "Kalamassery",
+      "Place": "Kalamassery"
+    },
+    {
+      "sl": "118",
+      "Code": "OLR",
+      "StationName": "Ollur",
+      "Place": "Thrissur Ollur"
+    },
+    {
+      "sl": "119",
+      "Code": "KXP",
+      "StationName": "Kaniyapuram",
+      "Place": "Kaniyapuram"
+    },
+    {
+      "sl": "120",
+      "Code": "ETK",
+      "StationName": "Edakkad",
+      "Place": "Etakkot"
+    },
+    {
+      "sl": "121",
+      "Code": "EVA",
+      "StationName": "Edavai",
+      "Place": "Edavai"
+    },
+    {
+      "sl": "122",
+      "Code": "MNY",
+      "StationName": "Mankarai",
+      "Place": "Mankarai"
+    },
+    {
+      "sl": "123",
+      "Code": "MNUR",
+      "StationName": "Mannanur",
+      "Place": "Mannanur"
+    },
+    {
+      "sl": "124",
+      "Code": "KRKD",
+      "StationName": "Karakkad",
+      "Place": "Karakkad"
+    },
+    {
+      "sl": "125",
+      "Code": "CGV",
+      "StationName": "Chingavanam",
+      "Place": "Chingavanam"
+    },
+    {
+      "sl": "126",
+      "Code": "DINR",
+      "StationName": "Divinenagar",
+      "Place": "Divinenagar"
+    },
+    {
+      "sl": "127",
+      "Code": "MQO",
+      "StationName": "Munroturuttu",
+      "Place": "Munroturuttu"
+    },
+    {
+      "sl": "128",
+      "Code": "TUV",
+      "StationName": "Tuvvur",
+      "Place": "Tuvvur"
+    },
+    {
+      "sl": "129",
+      "Code": "VPZ",
+      "StationName": "Vallapuzha",
+      "Place": "Vallapuzha"
+    },
+    {
+      "sl": "130",
+      "Code": "PKQ",
+      "StationName": "Pattikkad",
+      "Place": "Pattikkad"
+    },
+    {
+      "sl": "131",
+      "Code": "CQA",
+      "StationName": "Cherukara",
+      "Place": "Cherukara"
+    },
+    {
+      "sl": "132",
+      "Code": "AYV",
+      "StationName": "Arayankavu",
+      "Place": "Aryankavu"
+    },
+    {
+      "sl": "133",
+      "Code": "MLTR",
+      "StationName": "Melattur",
+      "Place": "Melattur"
+    },
+    {
+      "sl": "134",
+      "Code": "DAVM",
+      "StationName": "Dhanuvachapuram",
+      "Place": "Dhanuvachapuram"
+    },
+    {
+      "sl": "135",
+      "Code": "PNPR",
+      "StationName": "Punnapra",
+      "Place": "Punnapra"
+    },
+    {
+      "sl": "136",
+      "Code": "TZH",
+      "StationName": "Takazhi",
+      "Place": "Takazhi"
+    },
+    {
+      "sl": "137",
+      "Code": "NAU",
+      "StationName": "Nadapuram Road",
+      "Place": "Nadapuram Road"
+    },
+    {
+      "sl": "138",
+      "Code": "VEK",
+      "StationName": "Vellarakkad",
+      "Place": "Vellarakkad"
+    },
+    {
+      "sl": "139",
+      "Code": "AMVA",
+      "StationName": "Amaravila Halt",
+      "Place": "Amaravila"
+    },
+    {
+      "sl": "140",
+      "Code": "VDKS",
+      "StationName": "Vadanam Kurussi Halt",
+      "Place": "Vadanam Kurussi"
+    },
+    {
+      "sl": "141",
+      "Code": "AMY",
+      "StationName": "Akathumuri",
+      "Place": "Akathumuri"
+    },
+    {
+      "sl": "142",
+      "Code": "KDTY",
+      "StationName": "Kaduturutti Halt",
+      "Place": "Kaduturutti"
+    },
+    {
+      "sl": "143",
+      "Code": "CTPE",
+      "StationName": "Chandanattop Halt",
+      "Place": "Chandanattop"
+    },
+    {
+      "sl": "144",
+      "Code": "VLL",
+      "StationName": "Vellayil",
+      "Place": "Vellayil"
+    },
+    {
+      "sl": "145",
+      "Code": "CLMD",
+      "StationName": "Chullimada",
+      "Place": "Chullimada"
+    },
+    {
+      "sl": "146",
+      "Code": "KFE",
+      "StationName": "Kurikad",
+      "Place": "Kurikad"
+    },
+    {
+      "sl": "147",
+      "Code": "EDP",
+      "StationName": "Edapalayam Halt",
+      "Place": ""
+    },
+    {
+      "sl": "148",
+      "Code": "KFQ",
+      "StationName": "Kumaranallur",
+      "Place": "Kumaranallur"
+    },
+    {
+      "sl": "149",
+      "Code": "IRP",
+      "StationName": "Iravipuram",
+      "Place": "Kollam"
+    },
+    {
+      "sl": "150",
+      "Code": "AROR",
+      "StationName": "Aroor Halt",
+      "Place": "Aroor"
+    },
+    {
+      "sl": "151",
+      "Code": "EZP",
+      "StationName": "Ezhuppunna",
+      "Place": "Ezhuppunna"
+    },
+    {
+      "sl": "152",
+      "Code": "CQL",
+      "StationName": "Chirakkal",
+      "Place": "Chirakkal"
+    },
+    {
+      "sl": "153",
+      "Code": "IGL",
+      "StationName": "Iringal",
+      "Place": "Iringal"
+    },
+    {
+      "sl": "154",
+      "Code": "KFI",
+      "StationName": "Kappil",
+      "Place": "Kappil"
+    },
+    {
+      "sl": "155",
+      "Code": "PLPM",
+      "StationName": "Palappuram",
+      "Place": "Palappuram"
+    },
+    {
+      "sl": "156",
+      "Code": "KZC",
+      "StationName": "Kulukkalur",
+      "Place": "Kulukkalur"
+    },
+    {
+      "sl": "157",
+      "Code": "CWR",
+      "StationName": "Chovvara",
+      "Place": "Chovvara"
+    },
+    {
+      "sl": "158",
+      "Code": "KVTA",
+      "StationName": "Karuvatta Halt",
+      "Place": "Karuvatta"
+    },
+    {
+      "sl": "159",
+      "Code": "VELI",
+      "StationName": "Veli",
+      "Place": "Veli"
+    },
+    {
+      "sl": "160",
+      "Code": "NYI",
+      "StationName": "Nellayi",
+      "Place": "Nellayi"
+    },
+    {
+      "sl": "161",
+      "Code": "KLAD",
+      "StationName": "Kalanad Halt",
+      "Place": "Kalanad"
+    },
+    {
+      "sl": "162",
+      "Code": "TMPY",
+      "StationName": "Tumboli",
+      "Place": "Tumboli"
+    },
+    {
+      "sl": "163",
+      "Code": "KPTM",
+      "StationName": "Kanjiramattom",
+      "Place": "Kanjiramattom"
+    },
+    {
+      "sl": "164",
+      "Code": "CMC",
+      "StationName": "Chemancheri",
+      "Place": "Chemancheri"
+    },
+    {
+      "sl": "165",
+      "Code": "TRVZ",
+      "StationName": "Tiruvizha",
+      "Place": "Tiruvizha"
+    },
+    {
+      "sl": "166",
+      "Code": "PGZ",
+      "StationName": "Perunguzhi",
+      "Place": "Perunguzhi"
+    },
+    {
+      "sl": "167",
+      "Code": "KODN",
+      "StationName": "Kodumunda",
+      "Place": "Kodumunda"
+    },
+    {
+      "sl": "168",
+      "Code": "DMD",
+      "StationName": "Dharmadam",
+      "Place": "Dharmadam"
+    },
+    {
+      "sl": "169",
+      "Code": "KFV",
+      "StationName": "Kundara East",
+      "Place": "Kundara East"
+    },
+    {
+      "sl": "170",
+      "Code": "KTHY",
+      "StationName": "Kazhuthuruthy",
+      "Place": ""
+    },
+    {
+      "sl": "171",
+      "Code": "PEU",
+      "StationName": "Perssannur",
+      "Place": "Perssannur"
+    },
+    {
+      "sl": "172",
+      "Code": "MUC",
+      "StationName": "Mullurkara",
+      "Place": "Mullurkara"
+    },
+    {
+      "sl": "173",
+      "Code": "MUKE",
+      "StationName": "Mukkali",
+      "Place": "Mukkali"
+    },
+    {
+      "sl": "174",
+      "Code": "KIF",
+      "StationName": "Kuri",
+      "Place": "Kuri"
+    },
+    {
+      "sl": "175",
+      "Code": "KAVR",
+      "StationName": "Kalavoor Halt",
+      "Place": "Kalavur"
+    },
+    {
+      "sl": "176",
+      "Code": "KRAN",
+      "StationName": "Koratti Angadi",
+      "Place": "Koratti Angadi"
+    },
+    {
+      "sl": "177",
+      "Code": "CDRA",
+      "StationName": "Chandera",
+      "Place": "Chandera"
+    },
+    {
+      "sl": "178",
+      "Code": "VAY",
+      "StationName": "Vayalar",
+      "Place": "Vayalar"
+    }
+  ]

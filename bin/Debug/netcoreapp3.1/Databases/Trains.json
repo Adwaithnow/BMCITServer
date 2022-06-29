@@ -1,0 +1,34 @@
+[
+  {
+    "Train_Id": "3add8da2-ee10-443b-ae37-d34992544a13",
+    "TrainNo": 16649,
+    "TrainName": "PARASURAM EXP",
+    "FromStation": "e774d216-6cc7-4622-a47a-727882472140",
+    "ToStation": "ef15b875-2e77-4523-8e54-3879b0eb2e1a",
+    "DaysRun": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "Train_Id": "85d17809-9a86-4b2f-aad0-95ab24305572",
+    "TrainNo": 16648,
+    "TrainName": "Sabari Express",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
+    "ToStation": "ef15b875-2e77-4523-8e54-3879b0eb2e1a",
+    "DaysRun": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]
