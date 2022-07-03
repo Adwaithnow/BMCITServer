@@ -1,14 +1,5 @@
 [
   {
-    "SId": "cf239c6d-f5bb-4040-83e4-e4d72246bf33",
-    "StationName": "Kanjikode",
-    "StationShortCode": "KJKD",
-    "StationLocation": [
-      76.75531600000001,
-      10.800919
-    ]
-  },
-  {
     "SId": "0421a9f1-23f1-44b8-b0fc-7222c848b89d",
     "StationName": "Parli",
     "StationShortCode": "PLL",
@@ -1545,6 +1536,15 @@
     "StationLocation": [
       76.32247600000001,
       9.483759
+    ]
+  },
+  {
+    "SId": "214ce73a-5d05-4742-a63f-3d26c3c12b40",
+    "StationName": "Kanjikode",
+    "StationShortCode": "KJKD",
+    "StationLocation": [
+      76.75531600000001,
+      10.800919
     ]
   }
 ]

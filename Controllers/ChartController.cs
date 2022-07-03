@@ -15,7 +15,7 @@ namespace BMCIT.Controllers
         private readonly IChartService ChartService=null;
         public ChartController(IChartService chartService)
         {
-            ChartService = chartService;            
+            ChartService = chartService;
         }
         [HttpGet]
         public IActionResult Get()

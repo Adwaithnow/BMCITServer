@@ -1,3 +1,58 @@
 [
-
+  {
+    "Bid": "92208540-a923-41f0-85da-976570aaad2b",
+    "Id": "string",
+    "Train_Id": "string",
+    "TrainName": "string",
+    "FromStation": "string",
+    "ToStation": "string",
+    "IsCancelled": false,
+    "DateOfBooking": "string",
+    "DateOfJourney": "27/05/2022",
+    "TimeOfJourney": "string",
+    "NoOfPassengers": 0,
+    "Fare": 0.0
+  },
+  {
+    "Bid": "879cb294-4f88-474d-af75-a0a3fa72827a",
+    "Id": "string",
+    "Train_Id": "string",
+    "TrainName": "string",
+    "FromStation": "string",
+    "ToStation": "string",
+    "IsCancelled": false,
+    "DateOfBooking": "string",
+    "DateOfJourney": "27/08/2022",
+    "TimeOfJourney": "string",
+    "NoOfPassengers": 0,
+    "Fare": 0.0
+  },
+  {
+    "Bid": "bc84969f-50c4-44c8-be57-c425630b04e7",
+    "Id": "string",
+    "Train_Id": "string",
+    "TrainName": "string",
+    "FromStation": "string",
+    "ToStation": "string",
+    "IsCancelled": true,
+    "DateOfBooking": "string",
+    "DateOfJourney": "27/08/2022",
+    "TimeOfJourney": "string",
+    "NoOfPassengers": 0,
+    "Fare": 0.0
+  },
+  {
+    "Bid": "45ea4a9f-51f8-498a-b05e-77a487d0a648",
+    "Id": "string",
+    "Train_Id": "string",
+    "TrainName": "string",
+    "FromStation": "string",
+    "ToStation": "string",
+    "IsCancelled": true,
+    "DateOfBooking": "string",
+    "DateOfJourney": "27/05/2022",
+    "TimeOfJourney": "string",
+    "NoOfPassengers": 0,
+    "Fare": 0.0
+  }
 ]

@@ -10,7 +10,6 @@ namespace BMCIT.Services
     {
         Response SearchTrain(string FromStation,string DestStation,string date);
         Response GetAllTrains();
-
-
+        Response RouteForAdmin();
     }
 }

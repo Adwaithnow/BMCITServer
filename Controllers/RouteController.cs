@@ -47,6 +47,12 @@ namespace BMCIT.Controllers
             Response res=TrainRouteService.GetRouteById(Id);
             return StatusCode(res.ResCode,res.RData);
         }
+         [HttpGet("GetOneRoutesByTrainId/{Id}")]
+        public IActionResult GetOneRoutesByTrainId(string Id)
+        {
+            Response res=TrainRouteService.GetRouteByTrainId(Id);
+            return StatusCode(res.ResCode,res.RData);
+        }
         [HttpPatch("UpdateRoutes")]
         public IActionResult UpdateRoutes(Routes RoutesData)
         {

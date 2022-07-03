@@ -27,10 +27,23 @@ namespace BMCIT.Services
             res.RData = "No Route Found";
             return res;
         }
+          public Response GetRouteByTrainId(string Id)
+        {
+            Routes data = GetAllRoutes.Where(x => x.Train_Id == Id)?.FirstOrDefault();
+            if (data != null)
+            {
+                res.ResCode = 200;
+                res.RData = data;
+                return res;
+            }
+            res.ResCode = 404;
+            res.RData = "No Route Found";
+            return res;
+        }
         public Response DeleteOneRouteById(string Id)
         {
             List<Routes> AllRoute = GetAllRoutes.ToList();
-            int index = AllRoute.FindIndex(x => x.Train_Id == Id);
+            int index = AllRoute.FindIndex(x => x.RId == Id);
             if (index >= 0)
             {
                 AllRoute.RemoveAt(index);

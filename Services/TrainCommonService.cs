@@ -97,6 +97,22 @@ namespace BMCIT.Services
             return res;
 
         }
+        public Response RouteForAdmin(){
+            Response res=new Response();
+            IEnumerable<Routes> route=trainRoute.GetAllRoutes;
+            IEnumerable<Train> train=trainData.GetAllTrains;
+            var response=from t in train join r in route on t.Train_Id equals r.Train_Id select new{
+                RId=r.RId,
+                Train_Id=r.Train_Id,
+                TrainNo=t.TrainNo,
+                TrainName=t.TrainName,
+                FromSatation=t.FromStation,
+                ToStation=t.ToStation,
+                Stations=r.Stations
+            };
+            res.RData=response;
+            return res;
+        }
         public string GetStationName(string id)
         {
             return stationService.GetAllStation.Where(x => x.SId == id).FirstOrDefault().StationName;

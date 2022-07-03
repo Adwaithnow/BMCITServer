@@ -16,9 +16,12 @@ namespace BMCIT.Controllers
     public class TrainUserController : ControllerBase
     {
         private readonly ITrainCommonService TrainService = null;
-        public  TrainUserController(ITrainCommonService trainService)
+        private readonly ITrainRouteService routeService;
+
+        public  TrainUserController(ITrainCommonService trainService,ITrainRouteService routeService)
         {
             TrainService = trainService;
+            this.routeService = routeService;
         }
         [HttpGet]
         public IActionResult Get()
@@ -50,6 +53,27 @@ namespace BMCIT.Controllers
             // return Ok(data.FromStation);
             Response res=TrainService.GetAllTrains();
             // Console.WriteLine(res.RData);
+            return StatusCode(res.ResCode,res.RData);
+        }
+        [HttpGet("GetAllRoutesAdmin")]
+        public IActionResult GetAllRoutesAdmin()
+        {
+            // Console.WriteLine(data.FromStation);
+            // Console.WriteLine(data.ToStation);
+            // Console.WriteLine(data.date);
+
+            // return Ok(data.FromStation);
+            Response res=TrainService.RouteForAdmin();
+            // Console.WriteLine(res.RData);
+            return StatusCode(res.ResCode,res.RData);
+        }
+        [HttpGet("GetTrainsForRoute")]
+          public IActionResult GetTrainsForRoute()
+        {
+            IEnumerable<Routes> AllRoute=routeService.GetAllRoutes;
+            IEnumerable<Train> AllTRain=(IEnumerable<Train>)TrainService.GetAllTrains(); 
+            // var data=AllRoute.Where(c => !db.Blacklists.Select(b => b.CusId).Contains(c.CusId));
+            Response res=TrainService.GetAllTrains();
             return StatusCode(res.ResCode,res.RData);
         }
         

@@ -1,34 +1,16 @@
 [
   {
+    "SId": "cf239c6d-f5bb-4040-83e4-e4d72246bf33",
+    "StationName": "Kanjikode",
+    "StationShortCode": "KJKD",
+    "StationLocation": [
+      76.75531600000001,
+      10.800919
+    ]
+  },
+  {
     "SId": "0421a9f1-23f1-44b8-b0fc-7222c848b89d",
-    "StationName": "Parli",
-    "StationShortCode": "PLL",
-    "StationLocation": [
-      76.559421,
-      10.800415
-    ]
-  },
-  {
-    "SId": "da715fe7-98fb-4f29-8fef-6a1778443f3a",
-    "StationName": "Mankarai",
-    "StationShortCode": "MNY",
-    "StationLocation": [
-      76.500232,
-      10.771526
-    ]
-  },
-  {
-    "SId": "3a6e64f6-6f9c-4fc3-98cd-27dd3192c5c0",
-    "StationName": "Lakkiti",
-    "StationShortCode": "LDY",
-    "StationLocation": [
-      76.434467,
-      10.753217
-    ]
-  },
-  {
-    "SId": "ad7ad95f-d46d-4dca-974a-23ee417f4ef6",
-    "StationName": "Palappuram",
+    "StationName": "Parli"StationName": "Palappuram",
     "StationShortCode": "PLPM",
     "StationLocation": [
       76.398385813,
@@ -1536,15 +1518,6 @@
     "StationLocation": [
       76.32247600000001,
       9.483759
-    ]
-  },
-  {
-    "SId": "214ce73a-5d05-4742-a63f-3d26c3c12b40",
-    "StationName": "Kanjikode",
-    "StationShortCode": "KJKD",
-    "StationLocation": [
-      76.75531600000001,
-      10.800919
     ]
   }
 ]

@@ -13,5 +13,6 @@ namespace BMCIT.Services
         Response GetRouteById(string Id);
         Response UpdateRoute(Routes routeData);
         Response DeleteOneRouteById(string Id);
+        public Response GetRouteByTrainId(string Id);
     }
 }

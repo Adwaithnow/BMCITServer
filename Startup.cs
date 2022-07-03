@@ -35,6 +35,8 @@ namespace BMCIT
             services.AddScoped<IChartService,ChartService>();
             services.AddScoped<IStationService,StationService>();
             services.AddScoped<ITrainCommonService,TrainCommonService>();
+            services.AddScoped<IBookingService,BookingService>();
+
 
             // Register the Swagger Generator service. This service is responsible for genrating Swagger Documents.
             // Note: Add this service at the end after AddMvc() or AddMvcCore().
