@@ -19,8 +19,8 @@ namespace BMCIT.Models
         public string TimeOfJourney{ get; set; }
         public int NoOfPassengers { get; set; }
         public List<Passengers> PassengerDetails { get; set; }
-        public string SeatNo { get; set; }
         public string CoachName { get; set; }
+        public string CoachType { get; set; }
         public double Fare { get; set; }
     }
         public class Passengers
@@ -28,5 +28,6 @@ namespace BMCIT.Models
             public string Name { get; set; }
             public string Gender { get; set; }
             public int Age { get; set; }
+            public string SeatNo { get; set; }
         }
 }

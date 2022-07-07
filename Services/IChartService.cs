@@ -8,7 +8,7 @@ namespace BMCIT.Services
     public interface IChartService
     {
         //Chart
-        Response AddChart(Charts chartsData);
+        Response AddChart(string chartsData);
         Response GetChartById(string Id);
         Response UpdateChart(Charts chartsData);
         Response DeleteOneChartById(string Id);

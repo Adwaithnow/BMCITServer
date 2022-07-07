@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BMCIT.Models;
+using BMCIT.Models.User;
+
 namespace BMCIT.Services
 {
     public interface IBookingService
@@ -12,6 +14,7 @@ namespace BMCIT.Services
         Response GetAllUpcomingBookingByUserId(string Id);
         Response GetAllCompletedBookingByUserId(string Id);
         Response GetAllCancelledBookingByUserId(string Id);
+        Response GetAllBookingByTrainId(AdminGetBookingByTrainId Id);
         Response CancelBookingById(string Bid);
         // Response CancelBookingTrainId(string TrainId);
 

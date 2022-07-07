@@ -22,17 +22,17 @@ namespace BMCIT.Models
         public string type { get; set; }
         public string name { get; set; }
         public List<List<int>> seats { get; set; }
-        public int availilability()
-        {
-            int count = 0;
-            seats.ForEach(delegate (List<int> rows) {
-                rows.ForEach(delegate (int col) {
-                    if(col == 0) {
-                        count++;
-                    }
-                });
-            });
-            return count;
-        }
+        // public int availilability()
+        // {
+        //     int count = 0;
+        //     seats.ForEach(delegate (List<int> rows) {
+        //         rows.ForEach(delegate (int col) {
+        //             if(col == 0) {
+        //                 count++;
+        //             }
+        //         });
+        //     });
+        //     return count;
+        // }
     }    
 }

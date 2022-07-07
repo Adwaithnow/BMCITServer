@@ -40,7 +40,14 @@ namespace BMCIT.Controllers
         {
             return Ok(bookingService.GetAllBookingForAdmin);
         }
-         [HttpGet("GetAllUpcomingBookingByUserId/{Id}")]
+        [HttpPost("GetAllBookingForAdminByTrainId")]
+        public IActionResult GetAllBookingForAdminByTrainId(AdminGetBookingByTrainId data)
+        {
+            Response res=bookingService.GetAllBookingByTrainId(data);
+            Console.WriteLine(data.Date,data.Train_Id);
+            return StatusCode(res.ResCode,res.RData);
+        }
+        [HttpGet("GetAllUpcomingBookingByUserId/{Id}")]
         public IActionResult GetAllUpcomingBookingByUserId(string Id)
         {
             Response Res=bookingService.GetAllUpcomingBookingByUserId(Id);

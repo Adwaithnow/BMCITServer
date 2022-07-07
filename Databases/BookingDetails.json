@@ -1,58 +1,39 @@
 [
   {
-    "Bid": "92208540-a923-41f0-85da-976570aaad2b",
-    "Id": "string",
-    "Train_Id": "string",
-    "TrainName": "string",
-    "FromStation": "string",
-    "ToStation": "string",
+    "Bid": "dce301d5-a902-42bd-b176-f13c9cf56358",
+    "Id": "3add8da2-ee10-443b-ae37-d34992544a13",
+    "Train_Id": "3add8da2-ee10-443b-ae37-d34992544a13",
+    "TrainNo": "1234",
+    "TrainName": "Dummy Express",
+    "FromStation": "Changanacherry",
+    "ToStation": "Tiruvalla",
     "IsCancelled": false,
-    "DateOfBooking": "string",
-    "DateOfJourney": "27/05/2022",
+    "DateOfBooking": "18/04/2022",
+    "DateOfJourney": "18/04/2022",
     "TimeOfJourney": "string",
-    "NoOfPassengers": 0,
-    "Fare": 0.0
-  },
-  {
-    "Bid": "879cb294-4f88-474d-af75-a0a3fa72827a",
-    "Id": "string",
-    "Train_Id": "string",
-    "TrainName": "string",
-    "FromStation": "string",
-    "ToStation": "string",
-    "IsCancelled": false,
-    "DateOfBooking": "string",
-    "DateOfJourney": "27/08/2022",
-    "TimeOfJourney": "string",
-    "NoOfPassengers": 0,
-    "Fare": 0.0
-  },
-  {
-    "Bid": "bc84969f-50c4-44c8-be57-c425630b04e7",
-    "Id": "string",
-    "Train_Id": "string",
-    "TrainName": "string",
-    "FromStation": "string",
-    "ToStation": "string",
-    "IsCancelled": true,
-    "DateOfBooking": "string",
-    "DateOfJourney": "27/08/2022",
-    "TimeOfJourney": "string",
-    "NoOfPassengers": 0,
-    "Fare": 0.0
-  },
-  {
-    "Bid": "45ea4a9f-51f8-498a-b05e-77a487d0a648",
-    "Id": "string",
-    "Train_Id": "string",
-    "TrainName": "string",
-    "FromStation": "string",
-    "ToStation": "string",
-    "IsCancelled": true,
-    "DateOfBooking": "string",
-    "DateOfJourney": "27/05/2022",
-    "TimeOfJourney": "string",
-    "NoOfPassengers": 0,
-    "Fare": 0.0
+    "NoOfPassengers": 2,
+    "PassengerDetails": [
+      {
+        "Name": "Adwaith S",
+        "Gender": "Male",
+        "Age": 24,
+        "SeatNo": "12"
+      },
+      {
+        "Name": "Adithi S",
+        "Gender": "Female",
+        "Age": 14,
+        "SeatNo": "13"
+      },
+      {
+        "Name": "Adithyan S",
+        "Gender": "Male",
+        "Age": 26,
+        "SeatNo": "14"
+      }
+    ],
+    "CoachName": "S1",
+    "CoachType": "Sleeper",
+    "Fare": 1500.0
   }
 ]

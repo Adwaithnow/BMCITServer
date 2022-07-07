@@ -44,6 +44,7 @@ namespace BMCIT.Services
         {
             List<Routes> AllRoute = GetAllRoutes.ToList();
             int index = AllRoute.FindIndex(x => x.RId == Id);
+           
             if (index >= 0)
             {
                 AllRoute.RemoveAt(index);
