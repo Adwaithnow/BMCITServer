@@ -1,34 +1,12 @@
 [
   {
-    "Id": "7b8dd3d1-c635-4d80-8467-965772de455a",
+    "Id": "d8c40403-6e46-473a-b928-12050d0b0d6d",
     "Email": "string",
     "FirstName": "string",
     "LastName": "string",
+    "PasswordHash": "JxrmbG9Mrl3+XtH7LggTMLaTUw5qbhu3u7hUWdL4ybXpRQydudnxsHwlH7YrMgluOBqbDAeSFijQSZBn2o2KCg==",
+    "PasswordSalt": "AAs5pBlwr0qo+emWcjWxBg1yRKaRnkN2Ns59+gYIIKVM0rL6wDD3iYq91NlLT17PO/G++BMp/sfkwVDZ3z6iy25iOUk9QioKsNqA4Jm+dhgPZci1s0GFtnhs+w7ylH8+rUH4w7A+HwjSesf4SAaNeFC/sE44S44UdZLtROofS68=",
     "Password": "string",
-    "IsAdmin": true
-  },
-  {
-    "Id": "af632c14-0dc3-4ff3-8ff2-7b1ee5593f70",
-    "Email": "string",
-    "FirstName": "string",
-    "LastName": "string",
-    "Password": "string",
-    "IsAdmin": false
-  },
-  {
-    "Id": "4fe4522e-aabf-4e10-8f9b-b0f511c3a05f",
-    "Email": "string",
-    "FirstName": "string",
-    "LastName": "string",
-    "Password": "string",
-    "IsAdmin": false
-  },
-  {
-    "Id": "8f42ed61-8a31-4730-b352-87bc83fe9d4c",
-    "Email": "string",
-    "FirstName": "Adwaith",
-    "LastName": "string",
-    "Password": "string",
-    "IsAdmin": false
+    "Role": "User"
   }
 ]

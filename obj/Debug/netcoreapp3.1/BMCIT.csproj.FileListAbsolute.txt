@@ -35,3 +35,17 @@ E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.genruntimeconfig.cache
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.AssemblyReference.cache
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.GeneratedMSBuildEditorConfig.editorconfig
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Scrutor.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Filters.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\System.Text.Json.dll

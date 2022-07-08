@@ -20,31 +20,32 @@ namespace BMCIT.Services
 
         public IChartService ChartService { get; }
 
-        public  Response Book(Booking model)
+        public Response Book(Booking model)
         {
             IEnumerable<Booking> Booking = GetAllBookingForAdmin.Append(model);
-            List<Charts> AllChart=ChartService.GetAllCharts.ToList();
+            List<Charts> AllChart = ChartService.GetAllCharts.ToList();
             List<List<int>> seatNos = new List<List<int>>();
-            int chartindex =AllChart.FindIndex(x=>x.Chart_Id==model.Chart_Id);
+            int chartindex = AllChart.FindIndex(x => x.Chart_Id == model.Chart_Id);
             // AllChart[chartindex].Stations
             // List<string> stat=model.StationIds;
-             foreach (var item in model.PassengerDetails)
-             {
+            foreach (var item in model.PassengerDetails)
+            {
                 int s = Int32.Parse(item.SeatNo);
                 int j = (s - 1) % 4;
                 int i = (s - 1 - j) / 4;
-                seatNos.Add(new List<int>{i,j});
-             }
-             Console.WriteLine(JsonConvert.SerializeObject(seatNos), chartindex);
-             Console.WriteLine(JsonConvert.SerializeObject(model));
+                seatNos.Add(new List<int> { i, j });
+            }
+            Console.WriteLine(JsonConvert.SerializeObject(seatNos), chartindex);
+            Console.WriteLine(JsonConvert.SerializeObject(model));
 
             foreach (var stationid in model.StationIds)
             {
-                int stationidex=AllChart[chartindex].Stations.FindIndex(x=>x.SId==stationid);
-                int coachindex=AllChart[chartindex].Stations[stationidex].compartments.FindIndex(x=>x.name==model.CoachName);
+                int stationidex = AllChart[chartindex].Stations.FindIndex(x => x.SId == stationid);
+                int coachindex = AllChart[chartindex].Stations[stationidex].compartments.FindIndex(x => x.name == model.CoachName);
                 foreach (var seat in seatNos)
                 {
-                    if(AllChart[chartindex].Stations[stationidex].compartments[coachindex].seats[seat[0]][seat[1]] != 0) {
+                    if (AllChart[chartindex].Stations[stationidex].compartments[coachindex].seats[seat[0]][seat[1]] != 0)
+                    {
                         // todo return already booked
                         // res.ResCode = 
                     }
@@ -102,7 +103,7 @@ namespace BMCIT.Services
         {
             IEnumerable<Booking> AllBooking = GetAllBookingForAdmin;
             IEnumerable<Booking> booking = from x in AllBooking where x.Train_Id == Id.Train_Id && !x.IsCancelled select x;
-            IEnumerable<Booking> bok=from x in booking where Convert.ToDateTime(x.DateOfJourney)==Convert.ToDateTime(Id.Date) select x;
+            IEnumerable<Booking> bok = from x in booking where Convert.ToDateTime(x.DateOfJourney) == Convert.ToDateTime(Id.Date) select x;
             if (bok != null && bok.Any())
             {
                 res.ResCode = 200;

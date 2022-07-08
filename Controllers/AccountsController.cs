@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BMCIT.Models;
+using BMCIT.Models.User;
 using BMCIT.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -28,6 +29,12 @@ namespace BMCIT.Controllers
             user.Id=Guid.NewGuid().ToString();
             Response res=AccountService.Signup(user);
             return StatusCode(res.ResCode,res.RData);
+        }
+        [HttpPost("Login")]
+        public IActionResult Login(UserLogin userdata)
+        {
+            Response res = AccountService.Login(userdata);
+            return StatusCode(res.ResCode, res.RData);
         }
         [HttpGet("GetAllUsers")]
         public IActionResult GetAllUsers()

@@ -12,6 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using BMCIT.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace BMCIT
 {
@@ -29,31 +32,44 @@ namespace BMCIT
         {
             services.AddControllers();
             services.AddCors();
-            services.AddScoped<IAccountService,AccountService>();
-            services.AddScoped<ITrainService,TrainService>();
-            services.AddScoped<ITrainRouteService,TrainRouteService>();
-            services.AddScoped<IChartService,ChartService>();
-            services.AddScoped<IStationService,StationService>();
-            services.AddScoped<ITrainCommonService,TrainCommonService>();
-            services.AddScoped<IBookingService,BookingService>();
+            services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<ITrainService, TrainService>();
+            services.AddScoped<ITrainRouteService, TrainRouteService>();
+            services.AddScoped<IChartService, ChartService>();
+            services.AddScoped<IStationService, StationService>();
+            services.AddScoped<ITrainCommonService, TrainCommonService>();
+            services.AddScoped<IBookingService, BookingService>();
 
 
             // Register the Swagger Generator service. This service is responsible for genrating Swagger Documents.
             // Note: Add this service at the end after AddMvc() or AddMvcCore().
-            services.AddSwaggerGen(c =>
+            services.AddSwaggerGen(options =>
+               {
+                   options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+                   {
+                       Description = "Standard Authorization header using the Bearer scheme (\"bearer {token}\")",
+                       In = ParameterLocation.Header,
+                       Name = "Authorization",
+                       Type = SecuritySchemeType.ApiKey
+                   });
+
+                   options.OperationFilter<SecurityRequirementsOperationFilter>();
+               });
+            var key = System.Text.Encoding.UTF8.GetBytes("my top secret key");
+            services.AddAuthentication(x =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(x =>
+            {
+                x.TokenValidationParameters = new TokenValidationParameters
                 {
-                    Title = "BMCIT API",
-                    Version = "v1",
-                    Description = "WBAPI FOR BMCIT",
-                    Contact = new OpenApiContact
-                    {
-                        Name = "Adwaith S",
-                        Email = string.Empty,
-                        
-                    },
-                });
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
             });
         }
 
@@ -80,7 +96,8 @@ namespace BMCIT
             app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseCors(x=>x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
