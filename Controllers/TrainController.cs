@@ -38,6 +38,11 @@ namespace BMCIT.Controllers
         {
             return Ok(TrainService.GetAllTrains);
         }
+        [HttpGet("GetAllTrainsWithoutRoute")]
+        public IActionResult GetAllTrainsWithoutRoute()
+        {
+            return Ok(TrainService.GetAllTrainsWithoutRoute());
+        }
          [HttpGet("GetAllTrainsH")]
         public IActionResult GetAllTrainsH()
         {

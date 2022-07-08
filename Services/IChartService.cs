@@ -13,5 +13,6 @@ namespace BMCIT.Services
         Response UpdateChart(Charts chartsData);
         Response DeleteOneChartById(string Id);
         IEnumerable<Charts> GetAllCharts { get; }
+        public Response WriteChartList(List<Charts> chartData);
     }
 }

@@ -28,7 +28,7 @@ namespace BMCIT.Controllers
         }
         ///////////Train Services///////////
         [HttpPost("AddBooking")]
-        public IActionResult AddTrain([FromBody] Booking book)
+        public IActionResult AddBooking( Booking book)
         {
             book.Bid = Guid.NewGuid().ToString();
             Response res = bookingService.Book(book);

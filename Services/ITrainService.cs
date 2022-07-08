@@ -13,5 +13,6 @@ namespace BMCIT.Services
         Response UpdateTrain(Train train);
         Response DeleteOneTrainById(string Id);
         IEnumerable<Train> GetAllTrains { get; }
+        IEnumerable<Train> GetAllTrainsWithoutRoute();
     }
 }

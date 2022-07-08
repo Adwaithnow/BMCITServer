@@ -10,11 +10,24 @@ namespace BMCIT.Services
     {
         public string Tpath = "Databases/Trains.json";
         public Response res = new Response();
-
+        private readonly ITrainRouteService routeService = null;
+        public TrainService(ITrainRouteService RouteService)
+        {
+            routeService = RouteService;
+        }
         ////////////////////////////////////
         ///////////Train Services///////////
         ////////////////////////////////////
         public IEnumerable<Train> GetAllTrains => JsonConvert.DeserializeObject<List<Train>>(System.IO.File.ReadAllText(Tpath));
+
+
+        IEnumerable<Train> ITrainService.GetAllTrainsWithoutRoute()
+        {
+            IEnumerable<Train> Alltrain = GetAllTrains;
+            IEnumerable<Routes> Allroute = routeService.GetAllRoutes;
+            IEnumerable<Train> mTrain = Alltrain.Where(x=> ! Allroute.Any(y=>y.Train_Id == x.Train_Id));
+            return mTrain;
+        }
 
         public Response GetTrainById(string Id)
         {

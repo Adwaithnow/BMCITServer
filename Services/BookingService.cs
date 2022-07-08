@@ -12,12 +12,48 @@ namespace BMCIT.Services
     {
         Response res = new Response();
         public string Bpath = "Databases/BookingDetails.json";
-
+        public BookingService(IChartService chartService)
+        {
+            ChartService = chartService;
+        }
         public IEnumerable<Booking> GetAllBookingForAdmin => JsonConvert.DeserializeObject<List<Booking>>(System.IO.File.ReadAllText(Bpath));
-        public Response Book(Booking model)
+
+        public IChartService ChartService { get; }
+
+        public  Response Book(Booking model)
         {
             IEnumerable<Booking> Booking = GetAllBookingForAdmin.Append(model);
-            return WriteBooking(Booking);
+            List<Charts> AllChart=ChartService.GetAllCharts.ToList();
+            List<List<int>> seatNos = new List<List<int>>();
+            int chartindex =AllChart.FindIndex(x=>x.Chart_Id==model.Chart_Id);
+            // AllChart[chartindex].Stations
+            // List<string> stat=model.StationIds;
+             foreach (var item in model.PassengerDetails)
+             {
+                int s = Int32.Parse(item.SeatNo);
+                int j = (s - 1) % 4;
+                int i = (s - 1 - j) / 4;
+                seatNos.Add(new List<int>{i,j});
+             }
+             Console.WriteLine(JsonConvert.SerializeObject(seatNos), chartindex);
+             Console.WriteLine(JsonConvert.SerializeObject(model));
+
+            foreach (var stationid in model.StationIds)
+            {
+                int stationidex=AllChart[chartindex].Stations.FindIndex(x=>x.SId==stationid);
+                int coachindex=AllChart[chartindex].Stations[stationidex].compartments.FindIndex(x=>x.name==model.CoachName);
+                foreach (var seat in seatNos)
+                {
+                    if(AllChart[chartindex].Stations[stationidex].compartments[coachindex].seats[seat[0]][seat[1]] != 0) {
+                        // todo return already booked
+                        // res.ResCode = 
+                    }
+                    AllChart[chartindex].Stations[stationidex].compartments[coachindex].seats[seat[0]][seat[1]] = 1;
+                }
+            }
+            Console.WriteLine(JsonConvert.SerializeObject(AllChart));
+            return res;
+            // return WriteBooking(Booking);
         }
         public Response GetAllUpcomingBookingByUserId(string Id)
         {

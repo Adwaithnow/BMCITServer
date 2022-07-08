@@ -6,12 +6,14 @@ namespace BMCIT.Models
     public class Booking
     {
         public string Bid { get; set; }
+        public string Chart_Id { get; set; }
         public string Id { get; set; }
         public string Train_Id { get; set; }
         public string TrainNo { get; set; }
         public string TrainName { get; set; }
         public string FromStation { get; set; }
         public string ToStation { get; set; }
+        public List<string> StationIds { get; set; }
         [DefaultValue(false)]
         public bool IsCancelled { get; set; }=false;
         public string DateOfBooking { get; set; }

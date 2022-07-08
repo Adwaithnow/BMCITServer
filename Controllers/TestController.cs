@@ -38,6 +38,11 @@ namespace BMCIT.Controllers
         {
             // Console.WriteLine(JsonConvert.SerializeObject(MyChart));
             // Console.WriteLine(model.date);
+            Response fromang=stationService.GetStationById(model.FromStation);
+            Response toang=stationService.GetStationById(model.ToStation);
+
+            string ForAngularFromStation=(fromang.RData).StationName;
+            string ForAngularTo=(toang.RData).StationName;
             double? StartStation=null;
             double? StopStation=null;
             IEnumerable<Train> AllTrain = trainData.GetAllTrains;
@@ -111,12 +116,15 @@ namespace BMCIT.Controllers
                 select new
                            {
                                RId = x.RId,
+                               Chart_Id=c.Chart_Id,
                                Train_Id = x.Train_Id,
                                TrainName = z.TrainName,
                                TrainNo = z.TrainNo,
                                Stations = x.Stations,
                                DaysRun = z.DaysRun,
                                FromStation = z.FromStation,
+                               FromStationAng=ForAngularFromStation,
+                               ToStationAng=ForAngularTo,
                                DestStation = z.ToStation,
                                ChartStation=c.Stations,
                            }; 

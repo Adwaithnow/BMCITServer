@@ -1,4 +1,3 @@
-E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csprojAssemblyReference.cache
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfoInputs.cache
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.AssemblyInfo.cs
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CoreCompileInputs.cache
@@ -16,7 +15,6 @@ E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\TrainRoutes.json
 E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\Trains.json
 E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Databases\Users.json
 E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\KLStations.json
-E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Stations.json
 E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Tets.json
 E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\TrainRoutes.json
@@ -34,5 +32,6 @@ E:\UST\BMCIT\BMCIT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.RazorTargetAssemblyInfo.cache
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.CopyComplete
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.Manifest.cache
-E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\staticwebassets\BMCIT.StaticWebAssets.xml
 E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.genruntimeconfig.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.csproj.AssemblyReference.cache
+E:\UST\BMCIT\BMCIT\obj\Debug\netcoreapp3.1\BMCIT.GeneratedMSBuildEditorConfig.editorconfig
