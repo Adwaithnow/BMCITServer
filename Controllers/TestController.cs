@@ -43,6 +43,8 @@ namespace BMCIT.Controllers
 
             string ForAngularFromStation=(fromang.RData).StationName;
             string ForAngularTo=(toang.RData).StationName;
+            Console.WriteLine(ForAngularFromStation);
+            Console.WriteLine(ForAngularTo);
             double? StartStation=null;
             double? StopStation=null;
             IEnumerable<Train> AllTrain = trainData.GetAllTrains;
@@ -115,6 +117,7 @@ namespace BMCIT.Controllers
                 var data=from c in AllMycharts where Convert.ToDateTime(c.date)== Convert.ToDateTime(model.date) join x in SearchRoute on c.Train_Id equals x.Train_Id  join z in AllTrain on x.Train_Id equals z.Train_Id
                 select new
                            {
+                               dateofjourney=model.date,
                                RId = x.RId,
                                Chart_Id=c.Chart_Id,
                                Train_Id = x.Train_Id,

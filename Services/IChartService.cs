@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BMCIT.Models;
+using BMCIT.Models.User;
+
 namespace BMCIT.Services
 {
     public interface IChartService
     {
         //Chart
-        Response AddChart(string chartsData);
+        Response AddChart(AdminGetBookingByTrainId chartsData);
         Response GetChartById(string Id);
         Response UpdateChart(Charts chartsData);
         Response DeleteOneChartById(string Id);

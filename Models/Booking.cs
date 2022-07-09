@@ -9,10 +9,12 @@ namespace BMCIT.Models
         public string Chart_Id { get; set; }
         public string Id { get; set; }
         public string Train_Id { get; set; }
-        public string TrainNo { get; set; }
+        public int TrainNo { get; set; }
         public string TrainName { get; set; }
         public string FromStation { get; set; }
         public string ToStation { get; set; }
+        public string FromStationName { get; set; }
+        public string ToStationName { get; set; }
         public List<string> StationIds { get; set; }
         [DefaultValue(false)]
         public bool IsCancelled { get; set; }=false;
@@ -30,6 +32,6 @@ namespace BMCIT.Models
             public string Name { get; set; }
             public string Gender { get; set; }
             public int Age { get; set; }
-            public string SeatNo { get; set; }
+            public int SeatNo { get; set; }
         }
 }

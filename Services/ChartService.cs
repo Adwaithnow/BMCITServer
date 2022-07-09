@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BMCIT.Models;
+using BMCIT.Models.User;
 using Newtonsoft.Json;
 namespace BMCIT.Services
 {
@@ -20,18 +21,22 @@ namespace BMCIT.Services
         public Response res = new Response();
 
         public IEnumerable<Charts> GetAllCharts => JsonConvert.DeserializeObject<List<Charts>>(System.IO.File.ReadAllText(Cpath));
-        public Response AddChart(string TrainID)
+        public Response AddChart(AdminGetBookingByTrainId trainch)
         {
+            //Addign Train Id
+            //Getting Trains Route
+            Console.WriteLine(JsonConvert.SerializeObject(trainch));
             Charts chartsData = new Charts();
             chartsData.Chart_Id = Guid.NewGuid().ToString();
-            //Addign Train Id
-            chartsData.Train_Id = TrainID;
-            //Getting Trains Route
-
-            Routes thisTrainRoute = (from x in routeService.GetAllRoutes where x.Train_Id == TrainID select x).FirstOrDefault();
+            chartsData.Train_Id = trainch.Train_Id;
+            chartsData.date=trainch.Date;
+            // skjfksdjfksdjfsjfksdjklsdjfsjd
+            Routes thisTrainRoute = (from x in routeService.GetAllRoutes where x.Train_Id == trainch.Train_Id select x).FirstOrDefault();
             //Getting Train passing station details
 
-            List<RouteSub> TrainStations = thisTrainRoute.Stations;
+           try
+           {
+             List<RouteSub> TrainStations = thisTrainRoute.Stations;
             List<string> stationid = new List<string>();
             //Finding Station Ids that train passing through
 
@@ -85,8 +90,21 @@ namespace BMCIT.Services
                 ResCode = 200,
                 RData = chartsData
             };
+           }
+           catch (System.Exception)
+           {
+             return new Response
+            {
+                ResCode = 405,
+                RData = "No Route For the train found or An Error Occured"
+            };
+            throw;
+           }
+          
             // return WriteChart(olddta);
         }
+
+
         public Response UpdateChart(Charts ChartsData)
         {
             List<Charts> allCharts = GetAllCharts.ToList();

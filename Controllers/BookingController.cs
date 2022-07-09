@@ -31,6 +31,7 @@ namespace BMCIT.Controllers
         public IActionResult AddBooking( Booking book)
         {
             book.Bid = Guid.NewGuid().ToString();
+            Console.WriteLine( JsonConvert.SerializeObject(book));
             Response res = bookingService.Book(book);
             return StatusCode(res.ResCode, res.RData);
 
@@ -44,8 +45,8 @@ namespace BMCIT.Controllers
         public IActionResult GetAllBookingForAdminByTrainId(AdminGetBookingByTrainId data)
         {
             Response res=bookingService.GetAllBookingByTrainId(data);
-            Console.WriteLine(data.Date,data.Train_Id);
-            return StatusCode(res.ResCode,res.RData);
+            Console.WriteLine( JsonConvert.SerializeObject(res));
+            return StatusCode(res.ResCode,res);
         }
         [HttpGet("GetAllUpcomingBookingByUserId/{Id}")]
         public IActionResult GetAllUpcomingBookingByUserId(string Id)

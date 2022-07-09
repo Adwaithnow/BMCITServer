@@ -1,12 +1,22 @@
 [
   {
-    "Id": "d8c40403-6e46-473a-b928-12050d0b0d6d",
+    "Id": "31a25e04-7e0a-4b58-beb8-041d96d4c4e0",
     "Email": "string",
     "FirstName": "string",
     "LastName": "string",
-    "PasswordHash": "JxrmbG9Mrl3+XtH7LggTMLaTUw5qbhu3u7hUWdL4ybXpRQydudnxsHwlH7YrMgluOBqbDAeSFijQSZBn2o2KCg==",
-    "PasswordSalt": "AAs5pBlwr0qo+emWcjWxBg1yRKaRnkN2Ns59+gYIIKVM0rL6wDD3iYq91NlLT17PO/G++BMp/sfkwVDZ3z6iy25iOUk9QioKsNqA4Jm+dhgPZci1s0GFtnhs+w7ylH8+rUH4w7A+HwjSesf4SAaNeFC/sE44S44UdZLtROofS68=",
+    "PasswordHash": "+5uTsgUkMazC2M9nkDw3oJPsfbYfbL3GzS2qYeLHLV/2i/1HNRwUoeWY9Un7uE7vWZh7Q4LtJYV2Idct9uSJMw==",
+    "PasswordSalt": "od0thgWJxmrF21Bo4duF1KqjVgFncwPk7T2ihYjI/1a4G1eZWWZwkwBAXoLWxnVbrkgEtRgbOkc8z90/fncWIKWwuzh8m5WgHdoiOVpJ5MrwkCj8NdEi/KgRTVAYXT8MPtmvhMt7wXn5s+nJSNVteQTeuyIeaMLaVQaiDzszxGw=",
     "Password": "string",
     "Role": "User"
+  },
+  {
+    "Id": "c00b458c-97a8-4d9b-b2b9-0af36936ab92",
+    "Email": "Admin",
+    "FirstName": "string",
+    "LastName": "string",
+    "PasswordHash": "valcVcbOdal+M5GUYTTAG4RzdOSLxeMQ8CMwj8aLMpDyET105UHvhLmcSR0I0PmUndJ+S72ASLtR0hT8S587Kg==",
+    "PasswordSalt": "joc0GHHwgm4GqVgBBaJwEfonRk8Iniqj3WvbqFakvVWuaefnog4NGsb+Z5Sy3hySwbDoXhla/FQ41NnPKt35IavWeBafC7hl94Yo/hSkI5/QQnwOVZ/A7Ih7FORySUomPzJac0t9Ojb7blGshMiNDwaCrtakISeibm6C53hX9Q8=",
+    "Password": "string",
+    "Role": "Admin"
   }
 ]

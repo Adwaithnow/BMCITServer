@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BMCIT.Models;
 using BMCIT.Models.Admin;
+using BMCIT.Models.User;
 using BMCIT.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -30,7 +31,7 @@ namespace BMCIT.Controllers
             return Ok(ChartService.GetAllCharts);
         } 
          [HttpPost("AddChart")]
-        public IActionResult AddChart(string id)
+        public IActionResult AddChart(AdminGetBookingByTrainId id)
         {        
             Response res=ChartService.AddChart(id);
             return StatusCode(res.ResCode,res.RData);

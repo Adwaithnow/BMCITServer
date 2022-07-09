@@ -52,16 +52,17 @@ namespace BMCIT.Services
         }
         public Response GetStationById(string Id)
         {
+            Response resd = new Response();
             Station data = GetAllStation.Where(x => x.SId == Id)?.FirstOrDefault();
             if (data != null)
             {
-                res.ResCode = 200;
-                res.RData = data;
-                return res;
+                resd.ResCode = 200;
+                resd.RData = data;
+                return resd;
             }
-            res.ResCode = 404;
-            res.RData = "No Station Found";
-            return res;
+            resd.ResCode = 404;
+            resd.RData = "No Station Found";
+            return resd;
         }
         public Response DeleteOneStationById(string Id)
         {

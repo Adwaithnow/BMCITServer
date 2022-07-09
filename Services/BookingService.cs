@@ -22,21 +22,23 @@ namespace BMCIT.Services
 
         public Response Book(Booking model)
         {
+
             IEnumerable<Booking> Booking = GetAllBookingForAdmin.Append(model);
             List<Charts> AllChart = ChartService.GetAllCharts.ToList();
             List<List<int>> seatNos = new List<List<int>>();
             int chartindex = AllChart.FindIndex(x => x.Chart_Id == model.Chart_Id);
             // AllChart[chartindex].Stations
             // List<string> stat=model.StationIds;
+            Console.WriteLine(JsonConvert.SerializeObject(model));
             foreach (var item in model.PassengerDetails)
             {
-                int s = Int32.Parse(item.SeatNo);
+                // int s = Int32.Parse(item.SeatNo);
+                int s = item.SeatNo;
                 int j = (s - 1) % 4;
                 int i = (s - 1 - j) / 4;
                 seatNos.Add(new List<int> { i, j });
             }
             Console.WriteLine(JsonConvert.SerializeObject(seatNos), chartindex);
-            Console.WriteLine(JsonConvert.SerializeObject(model));
 
             foreach (var stationid in model.StationIds)
             {
@@ -110,7 +112,7 @@ namespace BMCIT.Services
                 res.RData = bok;
                 return res;
             }
-            res.ResCode = 200;
+            res.ResCode = 405;
             res.RData = "No Booking Found";
             return res;
         }

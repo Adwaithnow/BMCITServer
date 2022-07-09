@@ -7,6 +7,8 @@ using BMCIT.Models.User;
 using BMCIT.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+
 namespace BMCIT.Controllers
 {
     [ApiController]
@@ -33,8 +35,15 @@ namespace BMCIT.Controllers
         [HttpPost("Login")]
         public IActionResult Login(UserLogin userdata)
         {
+            // Response rd=new Response();
+            // Console.WriteLine(userdata.Email);
+            // Console.WriteLine(userdata.Password);
+
             Response res = AccountService.Login(userdata);
-            return StatusCode(res.ResCode, res.RData);
+            // Console.WriteLine(res.ResCode);
+            // Console.WriteLine(res.RData);
+        Console.WriteLine( JsonConvert.SerializeObject(res));
+            return StatusCode(res.ResCode, res);
         }
         [HttpGet("GetAllUsers")]
         public IActionResult GetAllUsers()

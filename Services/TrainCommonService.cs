@@ -44,6 +44,7 @@ namespace BMCIT.Services
                            join z in AllTrain on x.Train_Id equals z.Train_Id
                            select new
                            {
+                               date=date,
                                RId = x.RId,
                                Train_Id = x.Train_Id,
                                Stations = x.Stations,
