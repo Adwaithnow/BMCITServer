@@ -11,6 +11,7 @@ namespace BMCIT.Services
     {
         Response Book(Booking model);
         IEnumerable<Booking> GetAllBookingForAdmin{ get; }
+        // Response Cancel(string bookingId);
         Response GetAllUpcomingBookingByUserId(string Id);
         Response GetAllCompletedBookingByUserId(string Id);
         Response GetAllCancelledBookingByUserId(string Id);

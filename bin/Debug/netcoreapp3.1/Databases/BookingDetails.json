@@ -1,39 +1,41 @@
 [
   {
-    "Bid": "dce301d5-a902-42bd-b176-f13c9cf56358",
-    "Id": "3add8da2-ee10-443b-ae37-d34992544a13",
+    "Bid": "39ef6fe1-9557-406d-b317-4bb66b85e8e0",
+    "Chart_Id": "042b5776-4cc9-4f4a-ae1f-8e6346a0e510",
+    "Id": "c00b458c-97a8-4d9b-b2b9-0af36936ab92",
     "Train_Id": "3add8da2-ee10-443b-ae37-d34992544a13",
-    "TrainNo": "1234",
-    "TrainName": "Dummy Express",
-    "FromStation": "Changanacherry",
-    "ToStation": "Tiruvalla",
-    "IsCancelled": false,
-    "DateOfBooking": "18/04/2022",
-    "DateOfJourney": "18/04/2022",
-    "TimeOfJourney": "string",
+    "TrainNo": 16649,
+    "TrainName": "PARASURAM EXP",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
+    "ToStation": "e774d216-6cc7-4622-a47a-727882472140",
+    "FromStationName": "Kottayam",
+    "ToStationName": "Changanaseri",
+    "StationIds": [
+      "df65202d-4568-4be5-9a95-0276541337d6",
+      "86f7e470-9fce-488f-9a6c-f23e612c2854",
+      "e774d216-6cc7-4622-a47a-727882472140"
+    ],
+    "IsCancelled": true,
+    "DateOfBooking": "2022-07-10T07:43:20.333Z",
+    "DateOfJourney": "2022-07-10",
+    "TimeOfJourney": "12:07",
     "NoOfPassengers": 2,
     "PassengerDetails": [
       {
-        "Name": "Adwaith S",
+        "Name": "Adwaith",
         "Gender": "Male",
-        "Age": 24,
-        "SeatNo": "12"
+        "Age": 12,
+        "SeatNo": 1
       },
       {
-        "Name": "Adithi S",
-        "Gender": "Female",
-        "Age": 14,
-        "SeatNo": "13"
-      },
-      {
-        "Name": "Adithyan S",
+        "Name": "Alan",
         "Gender": "Male",
-        "Age": 26,
-        "SeatNo": "14"
+        "Age": 5,
+        "SeatNo": 2
       }
     ],
-    "CoachName": "S1",
-    "CoachType": "Sleeper",
-    "Fare": 1500.0
+    "CoachName": "A2",
+    "CoachType": "AC",
+    "Fare": 70.8
   }
 ]

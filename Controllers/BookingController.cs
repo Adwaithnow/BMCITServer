@@ -36,6 +36,14 @@ namespace BMCIT.Controllers
             return StatusCode(res.ResCode, res.RData);
 
         }
+        [HttpGet("CancelBooking")]
+        public IActionResult CancelBookingByID(string bid)
+        {
+         
+            Response res = bookingService.CancelBookingById(bid);
+            return StatusCode(res.ResCode, res.RData);
+
+        }
         [HttpGet("GetAllBookingForAdmin")]
         public IActionResult GetAllBookingForAdmin()
         {

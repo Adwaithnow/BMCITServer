@@ -83,13 +83,9 @@ namespace BMCIT.Services
             //Assigning value Tetsing
             chartsData.Stations = Stations;
             // Console.WriteLine(JsonConvert.SerializeObject(Stations));
-            // IEnumerable<Charts> olddta = GetAllCharts.Append(chartsData);
-            IEnumerable<Charts> olddta = GetAllCharts;
-            return new Response
-            {
-                ResCode = 200,
-                RData = chartsData
-            };
+            IEnumerable<Charts> olddta = GetAllCharts.Append(chartsData);
+            // IEnumerable<Charts> olddta = GetAllCharts;
+            return WriteChart(olddta);
            }
            catch (System.Exception)
            {
@@ -101,7 +97,7 @@ namespace BMCIT.Services
             throw;
            }
           
-            // return WriteChart(olddta);
+            
         }
 
 

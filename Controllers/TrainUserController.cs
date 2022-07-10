@@ -34,8 +34,8 @@ namespace BMCIT.Controllers
         [HttpPost("SearchTrain")]
         public IActionResult SearchTrain(TrainSearch data)
         {
-            // Console.WriteLine(data.FromStation);
-            // Console.WriteLine(data.ToStation);
+            Console.WriteLine(data.FromStation);
+            Console.WriteLine(data.ToStation);
             // Console.WriteLine(data.date);
 
             // return Ok(data.FromStation);

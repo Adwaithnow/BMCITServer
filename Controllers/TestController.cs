@@ -36,6 +36,7 @@ namespace BMCIT.Controllers
         [HttpPost("SearchTrain")]
         public IActionResult GetAllCharts(TrainSearch model)
         {
+            Console.WriteLine("TestCOntroller");
             // Console.WriteLine(JsonConvert.SerializeObject(MyChart));
             // Console.WriteLine(model.date);
             Response fromang=stationService.GetStationById(model.FromStation);
@@ -125,10 +126,10 @@ namespace BMCIT.Controllers
                                TrainNo = z.TrainNo,
                                Stations = x.Stations,
                                DaysRun = z.DaysRun,
-                               FromStation = z.FromStation,
+                               FromStation = model.FromStation,
                                FromStationAng=ForAngularFromStation,
                                ToStationAng=ForAngularTo,
-                               DestStation = z.ToStation,
+                               DestStation = model.ToStation,
                                ChartStation=c.Stations,
                            }; 
                 // var data = from x in SearchRoute

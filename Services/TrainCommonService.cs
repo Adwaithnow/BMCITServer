@@ -22,6 +22,7 @@ namespace BMCIT.Services
         }
         public Response SearchTrain(string FromStation, string DestStation, string? date)
         {
+            
             IEnumerable<Train> AllTrain = trainData.GetAllTrains;
             IEnumerable<Routes> AllRoute = trainRoute.GetAllRoutes;
             List<Routes> SearchRoute = new List<Routes>();
@@ -50,8 +51,8 @@ namespace BMCIT.Services
                                Stations = x.Stations,
                                TrainName = z.TrainName,
                                DaysRun = z.DaysRun,
-                               FromStation = z.FromStation,
-                               DestStation = z.ToStation
+                               FromStation = FromStation,
+                               DestStation = DestStation
                            };
                 if (data.Count() > 0)
                 {
