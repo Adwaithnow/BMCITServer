@@ -11,6 +11,7 @@ namespace BMCIT.Services
     {
         //Chart
         Response AddChart(AdminGetBookingByTrainId chartsData);
+        public Response GetAllChartForAdminH();
         Response GetChartById(string Id);
         Response UpdateChart(Charts chartsData);
         Response DeleteOneChartById(string Id);

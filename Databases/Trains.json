@@ -31,11 +31,44 @@
       6
     ]
   },
+
   {
-    "Train_Id": "6c103fcc-ff10-4ab8-91fa-4a59ac25f1b9",
-    "TrainNo": 1234,
-    "TrainName": "Test Express",
-    "FromStation": "ef15b875-2e77-4523-8e54-3879b0eb2e1a",
+    "Train_Id": "0498f472-9b63-4965-b28a-cebe25180749",
+    "TrainNo": 12345,
+    "TrainName": "Test Express2",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
+    "ToStation": "e0c1179b-5bf0-4079-bebf-819501a0fee4",
+    "DaysRun": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "Train_Id": "f4cd38d9-1897-48aa-9d36-1519143bdd98",
+    "TrainNo": 4351,
+    "TrainName": "Not KTM",
+    "FromStation": "abbb8d9e-1845-422c-922b-55e182a06b2f",
+    "ToStation": "e0c1179b-5bf0-4079-bebf-819501a0fee4",
+    "DaysRun": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "Train_Id": "4e403e28-0edd-4148-bba0-2a16e23fc757",
+    "TrainNo": 1456,
+    "TrainName": "teste",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
     "ToStation": "e774d216-6cc7-4622-a47a-727882472140",
     "DaysRun": [
       0,

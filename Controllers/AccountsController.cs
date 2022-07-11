@@ -30,7 +30,7 @@ namespace BMCIT.Controllers
         {
             user.Id=Guid.NewGuid().ToString();
             Response res=AccountService.Signup(user);
-            return StatusCode(res.ResCode,res.RData);
+            return StatusCode(res.ResCode,res);
         }
         [HttpPost("Login")]
         public IActionResult Login(UserLogin userdata)

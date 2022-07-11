@@ -36,45 +36,79 @@ namespace BMCIT.Controllers
         [HttpPost("SearchTrain")]
         public IActionResult GetAllCharts(TrainSearch model)
         {
-            Console.WriteLine("TestCOntroller");
-            // Console.WriteLine(JsonConvert.SerializeObject(MyChart));
-            // Console.WriteLine(model.date);
-            Response fromang=stationService.GetStationById(model.FromStation);
-            Response toang=stationService.GetStationById(model.ToStation);
+            string fmst = model.FromStation;
+            string tsts = model.ToStation;
+            string date = model.date;
 
-            string ForAngularFromStation=(fromang.RData).StationName;
-            string ForAngularTo=(toang.RData).StationName;
+            Response fromang = stationService.GetStationById(model.FromStation);
+            Response toang = stationService.GetStationById(model.ToStation);
+            if (model.FromStation == model.ToStation)
+            {
+                return StatusCode(405, new Response
+                {
+                    ResCode = 405,
+                    RData = "You dont need Train!"
+                });
+            }
+            string ForAngularFromStation = (fromang.RData).StationName;
+            string ForAngularTo = (toang.RData).StationName;
             Console.WriteLine(ForAngularFromStation);
             Console.WriteLine(ForAngularTo);
-            double? StartStation=null;
-            double? StopStation=null;
+            double? StartStation = null;
+            double? StopStation = null;
             IEnumerable<Train> AllTrain = trainData.GetAllTrains;
             IEnumerable<Routes> AllRoute = trainRoute.GetAllRoutes;
             IEnumerable<Charts> AllMycharts = MyChart;
 
-            List<Routes> SearchRoute = new List<Routes>();
+            List<Routes> SearchRoute = new List<Routes>();// [] != null
             Response res = new Response();
             foreach (Routes item in AllRoute)
             {
-                double? FromStationDS = (from x in item.Stations where x.StationId.Contains(model.FromStation) select x.Distance)?.FirstOrDefault();
-                double? DestStationDS = (from x in item.Stations where x.StationId.Contains(model.ToStation) select x.Distance)?.FirstOrDefault();
+                // Console.WriteLine(item.Train_Id);
+                // double fromexist=(from x in item.Stations where x.StationId==model.FromStation select x.Distance).FirstOrDefault();
+                // double toexist=(from x in item.Stations where x.StationId==model.ToStation select x.Distance).FirstOrDefault();
+                // Console.WriteLine("From Station" + item.Train_Id + fromexist);
+                // Console.WriteLine( + toexist);
+                //  x.StationId.Containsmodel.FromStation
 
+                // double? FromStationDS = (from x in item.Stations where x.StationId.Contains(model.FromStation) select x.Distance)?.FirstOrDefault();
+                // double? DestStationDS = (from x in item.Stations where x.StationId.Contains(model.ToStation) select x.Distance)?.FirstOrDefault();
+                bool FromStationok=item.Stations.Any(x=>x.StationId.Contains(model.FromStation));
+                bool DestStationOk=item.Stations.Any(x=>x.StationId.Contains(model.ToStation));
+                double? FromStationDS = (from x in item.Stations where x.StationId==model.FromStation select x.Distance)?.FirstOrDefault();
+                double? DestStationDS = (from x in item.Stations where x.StationId==model.ToStation select x.Distance)?.FirstOrDefault();
+                // true true -> false
+                // false false -> true
+                // true false -> true
+                if (!FromStationok || !DestStationOk) {
+                    continue;
+                }
+                Console.WriteLine(DestStationDS.ToString() + " " + FromStationDS.ToString());
+                Console.WriteLine(DestStationDS > FromStationDS);
                 if (DestStationDS > FromStationDS)
                 {
-                    StartStation=FromStationDS;
-                    StopStation=DestStationDS;
+                    Console.WriteLine("From Station " +" distance :"+ FromStationDS);
+                    Console.WriteLine("To Station " +" distance :"+ DestStationDS);
+
+                    StartStation = FromStationDS;
+                    StopStation = DestStationDS;
                     SearchRoute.Add(item);
                 }
+                Console.WriteLine("-----------------------------------------------------------");
+
             }
-            if (SearchRoute != null)
+            Console.WriteLine(JsonConvert.SerializeObject(SearchRoute));
+            Console.WriteLine(SearchRoute.Count.ToString() + " ccc");
+            Console.WriteLine("-----------------------------------------------------------");
+            if (SearchRoute.Count > 0)
             {
-                List<Routes> newroutes=new List<Routes>();
+                List<Routes> newroutes = new List<Routes>();
                 for (int i = 0; i < AllRoute.Count(); i++)
                 {
-                    AllRoute.ElementAt(i).Stations = AllRoute.ElementAt(i).Stations.OrderBy(x=>x.Distance).ToList();
+                    AllRoute.ElementAt(i).Stations = AllRoute.ElementAt(i).Stations.OrderBy(x => x.Distance).ToList();
                 }
                 // var tester=AllRoute.Sta.OrderBy(x=>x.Stations)
-                Console.WriteLine(JsonConvert.SerializeObject(AllRoute));
+                // Console.WriteLine(JsonConvert.SerializeObject(AllRoute));
                 // Console.WriteLine("ith");
                 // List<string> hmm=new List<string>();
                 // var ok=from x in SearchRoute join c in MyChart on x.Train_Id equals c.Train_Id
@@ -99,63 +133,67 @@ namespace BMCIT.Controllers
                 //     veri.Add(item.Train_Id,stta);
                 //     // stta.Clear();
                 // }
-               
-               
+
+
                 // res.RData=ok;
                 // res.ResCode=200;
-                Console.WriteLine(model.FromStation);
-                Console.WriteLine(model.ToStation);
-                Console.WriteLine(model.date);
-               try
-               {
-                var datas=from c in AllMycharts where Convert.ToDateTime(c.date)== Convert.ToDateTime(model.date) select c;
-               }
-               catch (System.Exception e)
-               {
-                Console.WriteLine(e);                
-                return Ok(e.Message);
-               }
-                var data=from c in AllMycharts where Convert.ToDateTime(c.date)== Convert.ToDateTime(model.date) join x in SearchRoute on c.Train_Id equals x.Train_Id  join z in AllTrain on x.Train_Id equals z.Train_Id
-                select new
-                           {
-                               dateofjourney=model.date,
-                               RId = x.RId,
-                               Chart_Id=c.Chart_Id,
-                               Train_Id = x.Train_Id,
-                               TrainName = z.TrainName,
-                               TrainNo = z.TrainNo,
-                               Stations = x.Stations,
-                               DaysRun = z.DaysRun,
-                               FromStation = model.FromStation,
-                               FromStationAng=ForAngularFromStation,
-                               ToStationAng=ForAngularTo,
-                               DestStation = model.ToStation,
-                               ChartStation=c.Stations,
-                           }; 
-                // var data = from x in SearchRoute
-                //            join z in AllTrain on x.Train_Id equals z.Train_Id
-                //            select new
-                //            {
-                //                RId = x.RId,
-                //                Train_Id = x.Train_Id,
-                //                TrainName = z.TrainName,
-                //                Stations = x.Stations,
-                //                DaysRun = z.DaysRun,
-                //                FromStation = z.FromStation,
-                //                DestStation = z.ToStation,
-                //            }; 
-                if (data.Count() > 0)
+                try
                 {
-                    res.ResCode = 200;
-                    res.RData = data;
+                    var datas = from c in AllMycharts where Convert.ToDateTime(c.date) == Convert.ToDateTime(model.date) select c;
+                    // Console.WriteLine(JsonConvert.SerializeObject(datas));
+                    // Console.WriteLine("--ok" );
                 }
-                else
+                catch (System.Exception e)
                 {
                     res.ResCode = 204;
-                    res.RData = "NO Train";
+                    res.RData = "No Train";
+                    Console.WriteLine(e);
+                    return StatusCode(res.ResCode, res);
                 }
+                try
+                {
+                    var data = from c in AllMycharts
+                               where Convert.ToDateTime(c.date) == Convert.ToDateTime(model.date)
+                               join x in SearchRoute on c.Train_Id equals x.Train_Id
+                               join z in AllTrain on x.Train_Id equals z.Train_Id
+                               select new
+                               {
+                                   dateofjourney = model.date,
+                                   RId = x.RId,
+                                   Chart_Id = c.Chart_Id,
+                                   Train_Id = x.Train_Id,
+                                   TrainName = z.TrainName,
+                                   TrainNo = z.TrainNo,
+                                   Stations = x.Stations,
+                                   DaysRun = z.DaysRun,
+                                   FromStation = model.FromStation,
+                                   FromStationAng = ForAngularFromStation,
+                                   ToStationAng = ForAngularTo,
+                                   DestStation = model.ToStation,
+                                   ChartStation = c.Stations,
+                               };
+                    Console.WriteLine(JsonConvert.SerializeObject(data));
+                    if (data.Count() > 0)
+                    {
+                        res.ResCode = 200;
+                        res.RData = data;
+                        
+                    }
+                    else
+                    {
+                        res.ResCode = 405;
+                        res.RData = "NO Train";
+                    }
+                }
+                catch (System.Exception)
+                {
+                    res.ResCode = 405;
+                    res.RData = "NO Train";
+                    return StatusCode(res.ResCode, res);
+                }
+                // Console.WriteLine(JsonConvert.SerializeObject(res));
             }
-            return StatusCode(res.ResCode, res.RData);
+            return StatusCode(res.ResCode, res);
         }
     }
 }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BMCIT.Models;
+
+
 namespace BMCIT.Services
 {
     public interface ITrainService
@@ -14,5 +16,6 @@ namespace BMCIT.Services
         Response DeleteOneTrainById(string Id);
         IEnumerable<Train> GetAllTrains { get; }
         IEnumerable<Train> GetAllTrainsWithoutRoute();
+      
     }
 }

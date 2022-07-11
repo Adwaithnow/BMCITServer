@@ -54,7 +54,7 @@ namespace BMCIT.Services
             else
             {
                 res.ResCode = 201;
-                res.RData = "Ok";
+                res.RData = "User Registered Successfully";
             }
             return res;
         }

@@ -30,11 +30,17 @@ namespace BMCIT.Controllers
         {
             return Ok(ChartService.GetAllCharts);
         } 
+          [HttpGet("GetAllChartsForAdmin")]
+        public IActionResult GetAllChartsForAdmin()
+        {
+           Response res=ChartService.GetAllChartForAdminH();
+            return StatusCode(res.ResCode,res);
+        } 
          [HttpPost("AddChart")]
         public IActionResult AddChart(AdminGetBookingByTrainId id)
         {        
             Response res=ChartService.AddChart(id);
-            return StatusCode(res.ResCode,res.RData);
+            return StatusCode(res.ResCode,res);
         }
       
         [HttpGet("GetOneChartById/{Id}")]

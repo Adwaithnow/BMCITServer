@@ -13,9 +13,12 @@ namespace BMCIT.Services
         ////////////Chart Services////////////
         //////////////////////////////////////
         private readonly ITrainRouteService routeService;
-        public ChartService(ITrainRouteService routeService)
+        private readonly ITrainService trainService;
+
+        public ChartService(ITrainRouteService routeService,ITrainService trainService)
         {
             this.routeService = routeService;
+            this.trainService = trainService;
         }
         public string Cpath = "Databases/Charts.json";
         public Response res = new Response();
@@ -85,6 +88,7 @@ namespace BMCIT.Services
             // Console.WriteLine(JsonConvert.SerializeObject(Stations));
             IEnumerable<Charts> olddta = GetAllCharts.Append(chartsData);
             // IEnumerable<Charts> olddta = GetAllCharts;
+         
             return WriteChart(olddta);
            }
            catch (System.Exception)
@@ -100,7 +104,26 @@ namespace BMCIT.Services
             
         }
 
-
+        public Response GetAllChartForAdminH(){
+            Response res=new Response();
+            IEnumerable<Train> alltrain=trainService.GetAllTrains;
+            IEnumerable<Charts> allchart=GetAllCharts;
+            var data=from chart in allchart
+                     join trai in alltrain on chart.Train_Id equals trai.Train_Id
+                     select new {
+                        TrainName=trai.TrainName,
+                        TrainNo=trai.TrainNo,
+                        Date=chart.date
+                     };
+            if(data!=null){
+                res.RData=data;
+                res.ResCode=200;
+                return res;
+            }
+            res.RData="No Chart found";
+            res.ResCode=405;
+            return res;
+         }
         public Response UpdateChart(Charts ChartsData)
         {
             List<Charts> allCharts = GetAllCharts.ToList();
