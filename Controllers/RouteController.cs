@@ -34,7 +34,7 @@ namespace BMCIT.Controllers
         {
             RoutesData.RId=Guid.NewGuid().ToString();
             Response res=TrainRouteService.AddRoute(RoutesData);
-            return StatusCode(res.ResCode,res.RData);
+            return StatusCode(res.ResCode,res);
         }
         [HttpGet("GetAllRoutess")]
         public IActionResult GetAllRoutess()

@@ -38,5 +38,15 @@
     "PasswordSalt": "x97+rZoPfyM4/8swAR3NdgpTmcga5Y8rTryxw7YIJWvuZMmMSs8eeUR2YT03q8WtOkxXAJjRnZm0AqOHWGLz3B0sUHtzClLHp8ASobYUK7CSYEIWy3xNVTvZK0D8BHacJ3AhAYDdLIx0vFOxWS7OOCk0Cn2M8ATx4Nv0kLbCA8k=",
     "Password": "1234",
     "Role": "User"
+  },
+  {
+    "Id": "aecbd3c1-c773-49d5-a28f-1eac11516c33",
+    "Email": "Adwaith",
+    "FirstName": "Adwaith",
+    "LastName": "S",
+    "PasswordHash": "GlHNWyCKmQkxjUY/o/YE5XcAJ2Kcr/dpY93EsdvvqZFU3X0orAgaBiToaz9FNgsFtdzUT4qZdCaSEGHwUU6/ZA==",
+    "PasswordSalt": "6RXrap2nWDkvGiN9C8UuEY+yy6M+KBgqieTIdWW+6xUz49jhdfo49n9t+NtVLcH9duIo2wbJAZEVm4MwY1BGq3mUF06O06ipGeJtSMqOGs7McWz3CHXI29li0KiOVETAB0c1HsEDmqMzYrk4GDo2651GtkwneQi2Fb9h7/AMl+M=",
+    "Password": "adwaith1",
+    "Role": "User"
   }
 ]

@@ -73,22 +73,24 @@ namespace BMCIT.Controllers
 
                 // double? FromStationDS = (from x in item.Stations where x.StationId.Contains(model.FromStation) select x.Distance)?.FirstOrDefault();
                 // double? DestStationDS = (from x in item.Stations where x.StationId.Contains(model.ToStation) select x.Distance)?.FirstOrDefault();
-                bool FromStationok=item.Stations.Any(x=>x.StationId.Contains(model.FromStation));
-                bool DestStationOk=item.Stations.Any(x=>x.StationId.Contains(model.ToStation));
-                double? FromStationDS = (from x in item.Stations where x.StationId==model.FromStation select x.Distance)?.FirstOrDefault();
-                double? DestStationDS = (from x in item.Stations where x.StationId==model.ToStation select x.Distance)?.FirstOrDefault();
+                bool FromStationok = item.Stations.Any(x => x.StationId.Contains(model.FromStation));
+
+                bool DestStationOk = item.Stations.Any(x => x.StationId.Contains(model.ToStation));
+                double? FromStationDS = (from x in item.Stations where x.StationId == model.FromStation select x.Distance)?.FirstOrDefault();
+                double? DestStationDS = (from x in item.Stations where x.StationId == model.ToStation select x.Distance)?.FirstOrDefault();
                 // true true -> false
                 // false false -> true
                 // true false -> true
-                if (!FromStationok || !DestStationOk) {
+                if (!FromStationok || !DestStationOk)
+                {
                     continue;
                 }
                 Console.WriteLine(DestStationDS.ToString() + " " + FromStationDS.ToString());
                 Console.WriteLine(DestStationDS > FromStationDS);
                 if (DestStationDS > FromStationDS)
                 {
-                    Console.WriteLine("From Station " +" distance :"+ FromStationDS);
-                    Console.WriteLine("To Station " +" distance :"+ DestStationDS);
+                    Console.WriteLine("From Station " + " distance :" + FromStationDS);
+                    Console.WriteLine("To Station " + " distance :" + DestStationDS);
 
                     StartStation = FromStationDS;
                     StopStation = DestStationDS;
@@ -171,18 +173,22 @@ namespace BMCIT.Controllers
                                    ToStationAng = ForAngularTo,
                                    DestStation = model.ToStation,
                                    ChartStation = c.Stations,
+                                   FromStationDetails = x.Stations.Where(x => x.StationId == model.FromStation).FirstOrDefault(),
+                                   ToStationDetails = x.Stations.Where(x => x.StationId == model.FromStation).FirstOrDefault()
                                };
                     Console.WriteLine(JsonConvert.SerializeObject(data));
                     if (data.Count() > 0)
                     {
                         res.ResCode = 200;
                         res.RData = data;
-                        
+                        return StatusCode(res.ResCode, res);
+
                     }
                     else
                     {
                         res.ResCode = 405;
                         res.RData = "NO Train";
+                        return StatusCode(res.ResCode, res);
                     }
                 }
                 catch (System.Exception)
@@ -193,6 +199,9 @@ namespace BMCIT.Controllers
                 }
                 // Console.WriteLine(JsonConvert.SerializeObject(res));
             }
+            res.ResCode = 405;
+            res.RData = "NO Train";
+            return StatusCode(res.ResCode, res);
             return StatusCode(res.ResCode, res);
         }
     }

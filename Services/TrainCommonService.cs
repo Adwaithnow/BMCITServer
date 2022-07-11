@@ -17,14 +17,15 @@ namespace BMCIT.Services
         private readonly IStationService stationService;
         private readonly IChartService chartService;
 
-        public TrainCommonService(ITrainService TrainData, ITrainRouteService TrainRoute, IStationService StationService,IChartService chartService)
+        public TrainCommonService(ITrainService TrainData, ITrainRouteService TrainRoute, IStationService StationService, IChartService chartService)
         {
             trainData = TrainData;
             trainRoute = TrainRoute;
             stationService = StationService;
             this.chartService = chartService;
         }
-        public Response SearchResults(TrainSearch model){
+        public Response SearchResults(TrainSearch model)
+        {
             string fmst = model.FromStation;
             string tsts = model.ToStation;
             string date = model.date;
@@ -33,7 +34,7 @@ namespace BMCIT.Services
             Response toang = stationService.GetStationById(model.ToStation);
             if (model.FromStation == model.ToStation)
             {
-                return new  Response
+                return new Response
                 {
                     ResCode = 405,
                     RData = "You dont need Train!"
@@ -138,7 +139,7 @@ namespace BMCIT.Services
                     {
                         res.ResCode = 200;
                         res.RData = data;
-                        
+
                     }
                     else
                     {
@@ -153,15 +154,16 @@ namespace BMCIT.Services
                     return res;
                 }
             }
-            else{
-                res.ResCode=405;
-                res.RData="No Train Found";
+            else
+            {
+                res.ResCode = 405;
+                res.RData = "No Train Found";
             }
             return res;
         }
         public Response SearchTrain(string FromStation, string DestStation, string? date)
         {
-            
+
             IEnumerable<Train> AllTrain = trainData.GetAllTrains;
             IEnumerable<Routes> AllRoute = trainRoute.GetAllRoutes;
             List<Routes> SearchRoute = new List<Routes>();
@@ -178,13 +180,13 @@ namespace BMCIT.Services
                     SearchRoute.Add(item);
                 }
             }
-            if (SearchRoute==null)
+            if (SearchRoute == null)
             {
                 var data = from x in SearchRoute
                            join z in AllTrain on x.Train_Id equals z.Train_Id
                            select new
                            {
-                               date=date,
+                               date = date,
                                RId = x.RId,
                                Train_Id = x.Train_Id,
                                Stations = x.Stations,
@@ -238,21 +240,37 @@ namespace BMCIT.Services
             return res;
 
         }
-        public Response RouteForAdmin(){
-            Response res=new Response();
-            IEnumerable<Routes> route=trainRoute.GetAllRoutes;
-            IEnumerable<Train> train=trainData.GetAllTrains;
-            var response=from t in train join r in route on t.Train_Id equals r.Train_Id select new{
-                RId=r.RId,
-                Train_Id=r.Train_Id,
-                TrainNo=t.TrainNo,
-                TrainName=t.TrainName,
-                FromSatation=t.FromStation,
-                ToStation=t.ToStation,
-                Stations=r.Stations
-            };
-            res.RData=response;
+        public Response RouteForAdmin()
+        {
+            Response res = new Response();
+            IEnumerable<Routes> route = trainRoute.GetAllRoutes;
+            IEnumerable<Train> train = trainData.GetAllTrains;
+            try
+            {
+                     var response = from t in train
+                           join r in route on t.Train_Id equals r.Train_Id
+                           select new
+                           {
+                               RId = r.RId,
+                               Train_Id = r.Train_Id,
+                               TrainNo = t.TrainNo,
+                               TrainName = t.TrainName,
+                               FromSatation = t.FromStation,
+                               ToStation = t.ToStation,
+                               ToStationName = GetStationName(t.ToStation),
+                               FromStationName = GetStationName(t.FromStation),
+                           };
+                              res.RData = response;
+                              res.ResCode=200;
+                              return res;
+            }
+            catch (System.Exception)
+            {
+                res.ResCode=405;
+                  res.RData = "No Data";
             return res;
+                throw;
+            }
         }
         public string GetStationName(string id)
         {

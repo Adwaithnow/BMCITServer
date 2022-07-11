@@ -1,56 +1,13 @@
 [
-
   {
-    "RId": "372bdd86-e8b7-4b74-874c-93f33fdc2b15",
-    "Train_Id": "85d17809-9a86-4b2f-aad0-95ab24305572",
+    "RId": "fd1b8cec-7e5e-4567-b1f7-5e689278d135",
+    "Train_Id": "3a1d49c6-2ecf-4f42-9ab0-0edb67bc5b0d",
     "Stations": [
       {
-        "StationId": "ef15b875-2e77-4523-8e54-3879b0eb2e1a",
+        "StationId": "df65202d-4568-4be5-9a95-0276541337d6",
         "PlatForm": 1,
-        "TimeArrival": "12:22",
-        "TimeDeparture": "12:22",
-        "Distance": 1.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "9296c720-4fb1-4b29-8ef7-8385f23e9d5d",
-        "PlatForm": 1,
-        "TimeArrival": "12:22",
-        "TimeDeparture": "12:22",
-        "Distance": 10.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "e0c1179b-5bf0-4079-bebf-819501a0fee4",
-        "PlatForm": 1,
-        "TimeArrival": "17:22",
-        "TimeDeparture": "18:22",
-        "Distance": 15.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
-        "PlatForm": 1,
-        "TimeArrival": "16:27",
-        "TimeDeparture": "12:29",
-        "Distance": 30.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      }
-    ]
-  },
-  {
-    "RId": "993d08c5-65a5-4728-a0bf-d302989214d3",
-    "Train_Id": "1fe12273-5a35-4b6a-b30e-f3023090e67f",
-    "Stations": [
-      {
-        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
-        "PlatForm": 1,
-        "TimeArrival": "20:34",
-        "TimeDeparture": "20:35",
+        "TimeArrival": "20:59",
+        "TimeDeparture": "20:59",
         "Distance": 0.0,
         "HaltTime": 1.0,
         "Day": 1
@@ -58,59 +15,8 @@
       {
         "StationId": "86f7e470-9fce-488f-9a6c-f23e612c2854",
         "PlatForm": 1,
-        "TimeArrival": "20:40",
-        "TimeDeparture": "20:41",
-        "Distance": 10.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "df65202d-4568-4be5-9a95-0276541337d6",
-        "PlatForm": 1,
-        "TimeArrival": "21:01",
+        "TimeArrival": "21:02",
         "TimeDeparture": "21:03",
-        "Distance": 30.0,
-        "HaltTime": 3.0,
-        "Day": 1
-      },
-      {
-        "StationId": "fa17784a-c7f8-4a3d-a654-227451c10c31",
-        "PlatForm": 1,
-        "TimeArrival": "21:37",
-        "TimeDeparture": "21:38",
-        "Distance": 40.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "abbb8d9e-1845-422c-922b-55e182a06b2f",
-        "PlatForm": 1,
-        "TimeArrival": "21:38",
-        "TimeDeparture": "21:40",
-        "Distance": 50.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      }
-    ]
-  },
-  {
-    "RId": "d49ea422-7b2a-4e04-a8de-0e36bcbe5a68",
-    "Train_Id": "3add8da2-ee10-443b-ae37-d34992544a13",
-    "Stations": [
-      {
-        "StationId": "df65202d-4568-4be5-9a95-0276541337d6",
-        "PlatForm": 1,
-        "TimeArrival": "12:07",
-        "TimeDeparture": "12:08",
-        "Distance": 0.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "86f7e470-9fce-488f-9a6c-f23e612c2854",
-        "PlatForm": 1,
-        "TimeArrival": "13:07",
-        "TimeDeparture": "13:08",
         "Distance": 10.0,
         "HaltTime": 1.0,
         "Day": 1
@@ -118,153 +24,60 @@
       {
         "StationId": "e774d216-6cc7-4622-a47a-727882472140",
         "PlatForm": 1,
-        "TimeArrival": "13:20",
-        "TimeDeparture": "13:21",
-        "Distance": 30.0,
+        "TimeArrival": "21:06",
+        "TimeDeparture": "21:07",
+        "Distance": 20.0,
         "HaltTime": 1.0,
         "Day": 1
       },
       {
         "StationId": "74bd5828-d4e5-4569-97d3-a13254901b7c",
         "PlatForm": 1,
-        "TimeArrival": "13:45",
-        "TimeDeparture": "13:46",
-        "Distance": 40.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "e0c1179b-5bf0-4079-bebf-819501a0fee4",
-        "PlatForm": 1,
-        "TimeArrival": "14:08",
-        "TimeDeparture": "14:09",
-        "Distance": 50.0,
+        "TimeArrival": "22:12",
+        "TimeDeparture": "22:14",
+        "Distance": 30.0,
         "HaltTime": 1.0,
         "Day": 1
       }
     ]
   },
   {
-    "RId": "1697424b-ad55-4238-9892-e4cdbdb4c8b7",
-    "Train_Id": "0498f472-9b63-4965-b28a-cebe25180749",
+    "RId": "75a0601c-f427-48f3-9f83-94787ed47b40",
+    "Train_Id": "57baad8e-00d0-4086-b315-c805d019ed05",
     "Stations": [
       {
-        "StationId": "df65202d-4568-4be5-9a95-0276541337d6",
+        "StationId": "74bd5828-d4e5-4569-97d3-a13254901b7c",
         "PlatForm": 1,
-        "TimeArrival": "10:34",
-        "TimeDeparture": "10:35",
+        "TimeArrival": "21:10",
+        "TimeDeparture": "21:14",
         "Distance": 0.0,
         "HaltTime": 1.0,
         "Day": 1
       },
       {
-        "StationId": "86f7e470-9fce-488f-9a6c-f23e612c2854",
+        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
         "PlatForm": 1,
-        "TimeArrival": "11:36",
-        "TimeDeparture": "11:37",
+        "TimeArrival": "22:12",
+        "TimeDeparture": "22:13",
         "Distance": 10.0,
         "HaltTime": 1.0,
         "Day": 1
       },
       {
-        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
-        "PlatForm": 1,
-        "TimeArrival": "11:45",
-        "TimeDeparture": "11:55",
+        "StationId": "86f7e470-9fce-488f-9a6c-f23e612c2854",
+        "PlatForm": 3,
+        "TimeArrival": "23:13",
+        "TimeDeparture": "23:14",
         "Distance": 25.0,
         "HaltTime": 1.0,
         "Day": 1
       },
       {
-        "StationId": "74bd5828-d4e5-4569-97d3-a13254901b7c",
-        "PlatForm": 1,
-        "TimeArrival": "12:36",
-        "TimeDeparture": "12:37",
-        "Distance": 50.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "e0c1179b-5bf0-4079-bebf-819501a0fee4",
-        "PlatForm": 1,
-        "TimeArrival": "13:10",
-        "TimeDeparture": "13:11",
-        "Distance": 60.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      }
-    ]
-  },
-  {
-    "RId": "c64c667d-01e3-4d2e-8883-608ef605af05",
-    "Train_Id": "f4cd38d9-1897-48aa-9d36-1519143bdd98",
-    "Stations": [
-      {
-        "StationId": "abbb8d9e-1845-422c-922b-55e182a06b2f",
-        "PlatForm": 1,
-        "TimeArrival": "11:40",
-        "TimeDeparture": "11:42",
-        "Distance": 0.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
         "StationId": "df65202d-4568-4be5-9a95-0276541337d6",
-        "PlatForm": 1,
-        "TimeArrival": "11:41",
-        "TimeDeparture": "11:41",
-        "Distance": 100.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
-        "PlatForm": 1,
-        "TimeArrival": "11:42",
-        "TimeDeparture": "11:42",
-        "Distance": 150.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "74bd5828-d4e5-4569-97d3-a13254901b7c",
-        "PlatForm": 1,
-        "TimeArrival": "11:43",
-        "TimeDeparture": "11:43",
-        "Distance": 155.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "e0c1179b-5bf0-4079-bebf-819501a0fee4",
-        "PlatForm": 1,
-        "TimeArrival": "11:46",
-        "TimeDeparture": "11:46",
-        "Distance": 175.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      }
-    ]
-  },
-  {
-    "RId": "c58963f9-493d-448d-b953-82eab9e79000",
-    "Train_Id": "4e403e28-0edd-4148-bba0-2a16e23fc757",
-    "Stations": [
-      {
-        "StationId": "df65202d-4568-4be5-9a95-0276541337d6",
-        "PlatForm": 1,
-        "TimeArrival": "12:23",
-        "TimeDeparture": "12:23",
-        "Distance": 0.0,
-        "HaltTime": 1.0,
-        "Day": 1
-      },
-      {
-        "StationId": "e774d216-6cc7-4622-a47a-727882472140",
-        "PlatForm": 1,
-        "TimeArrival": "12:24",
-        "TimeDeparture": "12:24",
-        "Distance": 25.0,
+        "PlatForm": 2,
+        "TimeArrival": "23:20",
+        "TimeDeparture": "23:21",
+        "Distance": 30.0,
         "HaltTime": 1.0,
         "Day": 1
       }

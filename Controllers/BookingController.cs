@@ -33,15 +33,15 @@ namespace BMCIT.Controllers
             book.Bid = Guid.NewGuid().ToString();
             Console.WriteLine( JsonConvert.SerializeObject(book));
             Response res = bookingService.Book(book);
-            return StatusCode(res.ResCode, res.RData);
+            return StatusCode(res.ResCode, res);
 
         }
-        [HttpGet("CancelBooking")]
+        [HttpGet("CancelBookingById/{bid}")]
         public IActionResult CancelBookingByID(string bid)
         {
          
             Response res = bookingService.CancelBookingById(bid);
-            return StatusCode(res.ResCode, res.RData);
+            return StatusCode(res.ResCode, res);
 
         }
         [HttpGet("GetAllBookingForAdmin")]
@@ -74,12 +74,12 @@ namespace BMCIT.Controllers
             Response Res=bookingService.GetAllCancelledBookingByUserId(Id);
             return StatusCode(Res.ResCode,Res.RData);
         }
-        [HttpPatch("CancelBookingById")]
-        public IActionResult CancelBookingById(string Id)
-        {
-            Response Res=bookingService.CancelBookingById(Id);
-            return StatusCode(Res.ResCode,Res.RData);
-        }
+        // [HttpPatch("CancelBookingById")]
+        // public IActionResult CancelBookingById(string Id)
+        // {
+        //     Response Res=bookingService.CancelBookingById(Id);
+        //     return StatusCode(Res.ResCode,Res.RData);
+        // }
         
 
 

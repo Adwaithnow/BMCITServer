@@ -54,6 +54,9 @@ namespace BMCIT.Services
             // return res;
             Response chrtrspn=ChartService.WriteChartList(AllChart);
             Console.WriteLine(JsonConvert.SerializeObject(chrtrspn));
+            WriteBooking(Bookings);
+            res.ResCode=200;
+            res.RData="Booking Cancelled";
             return res;
         }
         public Response Book(Booking model)
@@ -96,8 +99,11 @@ namespace BMCIT.Services
             // res.ResCode=200;
             // return res;
             Response chrtrspn=ChartService.WriteChartList(AllChart);
+            Response book=WriteBooking(Booking);
             Console.WriteLine(JsonConvert.SerializeObject(chrtrspn));
-            return WriteBooking(Booking);
+            res.RData="Booked Successfully";
+            res.ResCode=200;
+            return res;
         }
         public Response GetAllUpcomingBookingByUserId(string Id)
         {

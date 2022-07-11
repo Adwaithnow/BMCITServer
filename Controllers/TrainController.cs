@@ -30,7 +30,7 @@ namespace BMCIT.Controllers
             // Console.WriteLine("TrainName:"+Train.TrainName);
             Train.Train_Id = Guid.NewGuid().ToString();
             Response res = TrainService.AddTrain(Train);
-            return StatusCode(res.ResCode, res.RData);
+            return StatusCode(res.ResCode, res);
             // return Ok(Train);
         }
         [HttpGet("GetAllTrains")]
@@ -54,11 +54,11 @@ namespace BMCIT.Controllers
             Response res = TrainService.GetTrainById(Id);
             return StatusCode(res.ResCode, res.RData);
         }
-        [HttpPatch("UpdateTrain")]
+        [HttpPost("UpdateTrain")]
         public IActionResult UpdateOneTrain(Train traindata)
         {
             Response res = TrainService.UpdateTrain(traindata);
-            return StatusCode(res.ResCode, res.RData);
+            return StatusCode(res.ResCode, res);
         }
         [HttpDelete("DeleteOneTrainById/{Id}")]
         public IActionResult DeleteOneTrainById(string Id)
