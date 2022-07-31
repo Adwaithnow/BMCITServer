@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\adwai\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\adwai\\.nuget\\packages"
-    ]
-  }
-}
