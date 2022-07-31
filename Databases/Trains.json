@@ -30,5 +30,21 @@
       5,
       6
     ]
+  },
+  {
+    "Train_Id": "6bf3fab7-c364-491e-9a9f-5ca3896e1f69",
+    "TrainNo": 1687,
+    "TrainName": "Venad Express",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
+    "ToStation": "74bd5828-d4e5-4569-97d3-a13254901b7c",
+    "DaysRun": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
   }
 ]

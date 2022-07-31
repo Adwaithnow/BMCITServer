@@ -74,5 +74,122 @@
     "CoachName": "A1",
     "CoachType": "AC",
     "Fare": 70.8
+  },
+  {
+    "Bid": "92a077e6-8b82-4391-9483-f5c404632931",
+    "Chart_Id": "054707c8-b6bf-47b3-8d62-c4eb1efa1922",
+    "Id": "aecbd3c1-c773-49d5-a28f-1eac11516c33",
+    "Train_Id": "3a1d49c6-2ecf-4f42-9ab0-0edb67bc5b0d",
+    "TrainNo": 1234,
+    "TrainName": "Test Express",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
+    "ToStation": "e774d216-6cc7-4622-a47a-727882472140",
+    "FromStationName": "Kottayam",
+    "ToStationName": "Changanaseri",
+    "StationIds": [
+      "df65202d-4568-4be5-9a95-0276541337d6",
+      "86f7e470-9fce-488f-9a6c-f23e612c2854",
+      "e774d216-6cc7-4622-a47a-727882472140"
+    ],
+    "IsCancelled": false,
+    "DateOfBooking": "2022-07-11T18:08:28.168Z",
+    "DateOfJourney": "2022-07-11T18:30:00.000Z",
+    "TimeOfJourney": "20:59",
+    "NoOfPassengers": 2,
+    "PassengerDetails": [
+      {
+        "Name": "Adwaith",
+        "Gender": "Male",
+        "Age": 23,
+        "SeatNo": 1
+      },
+      {
+        "Name": "Alan",
+        "Gender": "Male",
+        "Age": 23,
+        "SeatNo": 2
+      }
+    ],
+    "CoachName": "A1",
+    "CoachType": "AC",
+    "Fare": 70.8
+  },
+  {
+    "Bid": "0a926e2a-f28a-45dc-ac77-8381f4c79e1c",
+    "Chart_Id": "054707c8-b6bf-47b3-8d62-c4eb1efa1922",
+    "Id": "c00b458c-97a8-4d9b-b2b9-0af36936ab92",
+    "Train_Id": "3a1d49c6-2ecf-4f42-9ab0-0edb67bc5b0d",
+    "TrainNo": 1234,
+    "TrainName": "Test Express",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
+    "ToStation": "e774d216-6cc7-4622-a47a-727882472140",
+    "FromStationName": "Kottayam",
+    "ToStationName": "Changanaseri",
+    "StationIds": [
+      "df65202d-4568-4be5-9a95-0276541337d6",
+      "86f7e470-9fce-488f-9a6c-f23e612c2854",
+      "e774d216-6cc7-4622-a47a-727882472140"
+    ],
+    "IsCancelled": false,
+    "DateOfBooking": "2022-07-12T06:45:11.135Z",
+    "DateOfJourney": "2022-07-12",
+    "TimeOfJourney": "20:59",
+    "NoOfPassengers": 2,
+    "PassengerDetails": [
+      {
+        "Name": "Adwaith",
+        "Gender": "Male",
+        "Age": 24,
+        "SeatNo": 3
+      },
+      {
+        "Name": "Abhijith",
+        "Gender": "Male",
+        "Age": 23,
+        "SeatNo": 4
+      }
+    ],
+    "CoachName": "A1",
+    "CoachType": "AC",
+    "Fare": 70.8
+  },
+  {
+    "Bid": "e815ca8b-b94b-4cc1-8472-f2e6356adeae",
+    "Chart_Id": "29c7885d-2a52-44cb-8f52-a0276c88e545",
+    "Id": "c00b458c-97a8-4d9b-b2b9-0af36936ab92",
+    "Train_Id": "3a1d49c6-2ecf-4f42-9ab0-0edb67bc5b0d",
+    "TrainNo": 1234,
+    "TrainName": "Test Express",
+    "FromStation": "df65202d-4568-4be5-9a95-0276541337d6",
+    "ToStation": "e774d216-6cc7-4622-a47a-727882472140",
+    "FromStationName": "Kottayam",
+    "ToStationName": "Changanaseri",
+    "StationIds": [
+      "df65202d-4568-4be5-9a95-0276541337d6",
+      "86f7e470-9fce-488f-9a6c-f23e612c2854",
+      "e774d216-6cc7-4622-a47a-727882472140"
+    ],
+    "IsCancelled": false,
+    "DateOfBooking": "2022-07-24T12:01:54.386Z",
+    "DateOfJourney": "2022-07-24",
+    "TimeOfJourney": "20:59",
+    "NoOfPassengers": 2,
+    "PassengerDetails": [
+      {
+        "Name": "Littin Thomas",
+        "Gender": "Male",
+        "Age": 24,
+        "SeatNo": 1
+      },
+      {
+        "Name": "Tolin Thomas",
+        "Gender": "Male",
+        "Age": 27,
+        "SeatNo": 4
+      }
+    ],
+    "CoachName": "A3",
+    "CoachType": "AC",
+    "Fare": 70.8
   }
 ]
