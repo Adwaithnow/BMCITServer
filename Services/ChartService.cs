@@ -33,7 +33,7 @@ namespace BMCIT.Services
             chartsData.Chart_Id = Guid.NewGuid().ToString();
             chartsData.Train_Id = trainch.Train_Id;
             chartsData.date=trainch.Date;
-            // skjfksdjfksdjfsjfksdjklsdjfsjd
+         
             Routes thisTrainRoute = (from x in routeService.GetAllRoutes where x.Train_Id == trainch.Train_Id select x).FirstOrDefault();
             //Getting Train passing station details
 
@@ -87,7 +87,7 @@ namespace BMCIT.Services
             chartsData.Stations = Stations;
             // Console.WriteLine(JsonConvert.SerializeObject(Stations));
             IEnumerable<Charts> olddta = GetAllCharts.Append(chartsData);
-            // IEnumerable<Charts> olddta = GetAllCharts;
+
          
             return WriteChart(olddta);
            }
